@@ -1,5 +1,15 @@
+<<<<<<< Updated upstream
 .MainText {
   font-size: 18px;
   line-height: 24px;
   font-family: 'Euclid Flex' , sans-serif;
 }
+||||||| merged common ancestors
+=======
+.mainText {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: Euclid Flex;
+  font-weight: regular; 
+}
+>>>>>>> Stashed changes
