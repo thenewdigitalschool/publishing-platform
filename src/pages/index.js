@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 import Image from '../Components/Image';
@@ -6,6 +7,7 @@ import LabelTitle from '../Components/Label';
 import ApplyLink from '../Components/Link';
 import Quote from '../Components/Quote';
 import Title from '../Components/Title';
+import Avatar from '../components/avatar'
 
 export default () => (
   <div>
@@ -19,5 +21,6 @@ export default () => (
       activities you want to be involved with."
     </Quote>
     <Title propTitle="Shit, It's Working" />
+    < Avatar src="https://unsplash.it/1200/800/?random"/>
   </div>
 );

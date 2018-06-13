@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "gatsby": "^1.9.250",
-    "gatsby-link": "^1.6.40"
+    "react-progressive-image": "^0.3.0"
   }
 }
