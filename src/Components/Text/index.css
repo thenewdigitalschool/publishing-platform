@@ -1,6 +1,5 @@
-.mainText {
+.MainText {
   font-size: 18px;
   line-height: 24px;
-  font-family: Euclid Flex;
-  font-weight: regular; 
+  font-family: 'Euclid Flex' , sans-serif;
 }
