@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 import Image from '../Components/Image';
@@ -8,6 +7,8 @@ import ApplyLink from '../Components/Link';
 import Quote from '../Components/Quote';
 import Title from '../Components/Title';
 import Avatar from '../components/avatar'
+import Footerlink from '../Components/Footer/Link';
+import NavigationLink from '../Components/Navigation/Link';
 
 export default () => (
   <div>
@@ -22,5 +23,7 @@ export default () => (
     </Quote>
     <Title propTitle="Shit, It's Working" />
     < Avatar src="https://unsplash.it/1200/800/?random"/>
+    <Footerlink linkurl="" linklabel="Founders Founders Rua da Constituição 346 4200-192 Porto, Portugal"/>
+    <NavigationLink linkurl = "" linklabel="ABOUT US"/>
   </div>
 );
