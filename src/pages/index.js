@@ -7,7 +7,7 @@ import Input from '../Components/Input';
 import ApplyLink from '../Components/Link';
 import Quote from '../Components/Quote';
 import Title from '../Components/Title';
-import Avatar from '../Components/avatar';
+import Avatar from '../Components/Avatar';
 import Footerlink from '../Components/Footer/Link';
 import NavigationLink from '../Components/Navigation/Link';
 import FooterLabel from '../Components/Footer/FooterLabel';
