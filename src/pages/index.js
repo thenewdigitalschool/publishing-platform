@@ -1,4 +1,5 @@
 import React from "react";
+
 import Text from "../Components/Text";
 import Subtitle from "../Components/Subtitle";
 import Image from '../Components/Image';
@@ -7,11 +8,7 @@ import LabelTitle from '../Components/Label';
 import ApplyLink from '../Components/Link';
 import Quote from '../Components/Quote';
 import Title from '../Components/Title';
-<<<<<<< HEAD
-import Avatar from '../components/avatar';
-=======
 import Avatar from '../Components/avatar'
->>>>>>> b101901... fixing json and apply link text
 import Footerlink from '../Components/Footer/Link';
 import NavigationLink from '../Components/Navigation/Link';
 import FooterLabel from '../Components/Footer/FooterLabel';
