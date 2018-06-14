@@ -8,11 +8,8 @@ import Quote from '../Components/Quote';
 import Title from '../Components/Title';
 import Avatar from '../components/avatar'
 import Footerlink from '../Components/Footer/Link';
-<<<<<<< HEAD
 import NavigationLink from '../Components/Navigation/Link';
-=======
 import FooterLabel from '../Components/Footer/FooterLabel'
->>>>>>> add FooterLabel component
 
 export default () => (
   <div>
