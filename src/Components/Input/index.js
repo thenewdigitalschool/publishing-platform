@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import './index.css';
 
 export default class Input extends Component {
-  render() {
+  renderWithLabel() {
     return (
       <div className="Input">
         <label htmlFor={this.props.id} className="Input-label">{/* eslint-disable-line jsx-a11y/label-has-for */}
@@ -13,6 +13,22 @@ export default class Input extends Component {
         <input id={this.props.id} className="Input-type" type={this.props.type} />
       </div>
     );
+  }
+
+  renderWithoutLabel() {
+    return (
+      <div className="Input">
+        <input id={this.props.id} className="Input-type" type={this.props.type} />
+      </div>
+    );
+  }
+
+  render() {
+    if (this.props.label) {
+      return this.renderWithLabel();
+    }
+
+    return this.renderWithoutLabel();
   }
 }
 

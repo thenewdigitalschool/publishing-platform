@@ -6,7 +6,7 @@ export default class ApplyLink extends Component {
   render() {
     return (
       <a className={this.props.classname} href={this.props.LinkUrl}>
-        <span className="ApplyLink-text">{this.props.children}</span>
+        <span className="ApplyLink-text">{this.props.children}</span>{' '}
       </a>
     );
   }

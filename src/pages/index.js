@@ -16,6 +16,7 @@ import TndsLogo from '../Components/Logo';
 import Label from '../Components/Label';
 import Icons from '../Components/Icons';
 import Layout from './Layout';
+import Footer from '../Components/Footer';
 
 export default () => (
   <Layout>
@@ -29,7 +30,7 @@ export default () => (
       good thing is that you can decide which activities you want to be involved with.
     </Quote>
     <Title propTitle="Shit, It's Working" />
-    <Avatar src="https://unsplash.it/1200/800/?random" />
+    <Avatar src="https://unsplash.it/1200/800/?random"/>
     <FooterLabel>This is a fooooooter label</FooterLabel>
     <Footerlink
       linkurl=""
@@ -46,5 +47,6 @@ export default () => (
     </Text>
     <Subtitle>This is a subtitle</Subtitle>
     <Icons />
+    <Footer />
   </Layout>
 );

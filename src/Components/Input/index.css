@@ -1,7 +1,3 @@
-.Input {
-padding-top: 20px;
-}
-
 .Input-label {
     font-family: 'Euclid Flex';
     font-weight: 700;
@@ -9,12 +5,13 @@ padding-top: 20px;
     font-size: 0.875rem;
     text-transform: uppercase;
     display: block;
+    padding-top: 20px;
+    margin-bottom: 7px;
 }
 
 .Input-type {
     border: 1px solid #fefefe;
     background: transparent;
-    margin-top: 7px;
     font-size: 0.875rem;
     padding: 10px 20px;
     color: #fefefe;
