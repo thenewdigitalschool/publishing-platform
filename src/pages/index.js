@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react';
 
 import Image from '../Components/Image';
@@ -11,6 +10,7 @@ import Avatar from '../components/avatar'
 import Footerlink from '../Components/Footer/Link';
 import NavigationLink from '../Components/Navigation/Link';
 import FooterLabel from '../Components/Footer/FooterLabel'
+import TndsLogo from '../Components/Logo';
 
 export default () => (
   <div>
@@ -28,17 +28,9 @@ export default () => (
     <FooterLabel>This is a fooooooter label</FooterLabel>
     <Footerlink linkurl="" linklabel="Founders Founders Rua da Constituição 346 4200-192 Porto, Portugal"/>
     <NavigationLink linkurl = "" linklabel="ABOUT US"/>
+    <TndsLogo>
+      why we do what we do
+    </TndsLogo>
 
   </div>
 );
-=======
-import React from "react";
-
-import TndsLogo from '../Components/Logo';
-
-export default () =>
-
-<TndsLogo>
-  why we do what we do
-</TndsLogo>
->>>>>>> 8d1dfc5... adding the logo, ready for revision
