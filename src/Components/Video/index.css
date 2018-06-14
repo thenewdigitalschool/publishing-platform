@@ -1,0 +1,10 @@
+.Video { 
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.Video-view {
+    position: relative;
+    z-index: -1;
+}
