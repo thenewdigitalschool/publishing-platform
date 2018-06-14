@@ -1,3 +1,8 @@
 import React from "react"
 
-export default () => <div>Hello world!</div>
+import Button from '../Components/Button';
+
+export default () =>
+      <Button>
+        HI SARA!
+      </Button>
