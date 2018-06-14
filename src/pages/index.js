@@ -15,9 +15,10 @@ import FooterLabel from '../Components/Footer/FooterLabel';
 import TndsLogo from '../Components/Logo';
 import Label from '../Components/Label';
 import Icons from '../Components/Icons';
+import Layout from './Layout';
 
 export default () => (
-  <div>
+  <Layout>
     <Image src="http://via.placeholder.com/400x450" alt="Alternate Text" />
     <Input label="Input Label" type="text" />
     <Label>This is Label</Label>
@@ -45,5 +46,5 @@ export default () => (
     </Text>
     <Subtitle>This is a subtitle</Subtitle>
     <Icons />
-  </div>
+  </Layout>
 );
