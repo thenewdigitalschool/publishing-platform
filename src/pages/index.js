@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 import Image from '../Components/Image';
@@ -8,6 +7,7 @@ import ApplyLink from '../Components/Link';
 import Quote from '../Components/Quote';
 import Title from '../Components/Title';
 import Avatar from '../Components/avatar'
+import Footerlink from '../Components/Footer/Link';
 
 export default () => (
   <div>
@@ -21,6 +21,7 @@ export default () => (
       activities you want to be involved with."
     </Quote>
     <Title propTitle="Shit, It's Working" />
-    < Avatar src="https://unsplash.it/1200/800/?random" />
-  </div >
+    <Avatar src="https://unsplash.it/1200/800/?random"/>
+    <Footerlink linkurl="" linklabel="Founders Founders Rua da Constituição 346 4200-192 Porto, Portugal"/>
+  </div> 
 );
