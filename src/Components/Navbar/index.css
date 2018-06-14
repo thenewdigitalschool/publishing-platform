@@ -1,5 +1,15 @@
+<<<<<<< Updated upstream
 .nav-wrapper{
     max-width: 80vw;
+=======
+.Navbar{
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    /* border: 1px solid red; */
+>>>>>>> Stashed changes
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -13,14 +23,33 @@ ul{
     list-style-type: none;
 }
 
+<<<<<<< Updated upstream
 .link-container{
+=======
+.Navbar-Logo{
+    display: inline;
+    display: flex;
+    align-items: center;
+    /* flex:1; */
+    /* border: 1px solid red; */
+}
+.Navbar-Links{
+    width: 50%;
+    /* border: 1px solid red; */
+>>>>>>> Stashed changes
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+<<<<<<< Updated upstream
 .link-item,.apply-button{
     margin-left: 30px;
+=======
+.Navbar-Links div:last-child .Link{
+    background-color:blue;
+    padding: 30px;
+>>>>>>> Stashed changes
 }
 
 

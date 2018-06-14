@@ -7,6 +7,8 @@ import ApplyLink from '../Components/Link';
 import Quote from '../Components/Quote';
 import Title from '../Components/Title';
 import Navbar from '../Components/Navbar'
+
+
 export default () => (
   <div>
     <Image src="http://via.placeholder.com/400x450" alt="Alternate Text" />
@@ -19,6 +21,14 @@ export default () => (
       activities you want to be involved with."
     </Quote>
     <Title propTitle="Shit, It's Working" />
+
+    < Avatar src="https://unsplash.it/1200/800/?random"/>
+    <FooterLabel>This is a fooooooter label</FooterLabel>
+    <Footerlink linkurl="" linklabel="Founders Founders Rua da Constituição 346 4200-192 Porto, Portugal"/>
+    <NavigationLink linkurl = "" linklabel="ABOUT US"/>
+    {/* <TndsLogo>
+      why we do what we do
+    </TndsLogo> */}
     <Navbar />
   </div>
 );

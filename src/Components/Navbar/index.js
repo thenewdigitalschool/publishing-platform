@@ -1,12 +1,30 @@
 import React, {Component} from "react"
 import "./index.css"
 
+<<<<<<< Updated upstream
     export default class Navbar extends React.Component{
         render(){
             return (
             <div className="nav-wrapper">
                 <div className="logo">
                     <img src="./tnds_logo_white.svg" alt=""/>
+=======
+import Link from "../Navigation/link"
+import TndsLogo from "../Logo"
+export default class Navbar extends React.Component {
+    render(){
+        
+        return (
+            <div className="Navbar">
+                <div className="Navbar-Logo">
+                    <TndsLogo />
+                </div>
+                <div className="Navbar-Links">
+                    <Link  linkurl="" linklabel="About Us"/>
+                    <Link  linkurl="" linklabel="Full Time Program"/>
+                    <Link  linkurl="" linklabel="Living in Porto"/>
+                    <Link  linkurl="" linklabel="Apply Now"/>
+>>>>>>> Stashed changes
                 </div>
                 <div className="links">
                     <ul className="link-container">
