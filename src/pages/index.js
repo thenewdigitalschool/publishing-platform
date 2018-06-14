@@ -8,7 +8,11 @@ import Quote from '../Components/Quote';
 import Title from '../Components/Title';
 import Avatar from '../components/avatar'
 import Footerlink from '../Components/Footer/Link';
+<<<<<<< HEAD
 import NavigationLink from '../Components/Navigation/Link';
+=======
+import FooterLabel from '../Components/Footer/FooterLabel'
+>>>>>>> add FooterLabel component
 
 export default () => (
   <div>
@@ -23,6 +27,7 @@ export default () => (
     </Quote>
     <Title propTitle="Shit, It's Working" />
     < Avatar src="https://unsplash.it/1200/800/?random"/>
+    <FooterLabel>This is a fooooooter label</FooterLabel>
     <Footerlink linkurl="" linklabel="Founders Founders Rua da Constituição 346 4200-192 Porto, Portugal"/>
     <NavigationLink linkurl = "" linklabel="ABOUT US"/>
 
