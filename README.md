@@ -4,7 +4,7 @@
 
 # Publishing Platform
 
-[![Build Status](https://semaphoreci.com/api/v1/justo/publishing-platform/branches/font-face/badge.svg)](https://semaphoreci.com/justo/publishing-platform)
+[![Build Status](https://semaphoreci.com/api/v1/justo/publishing-platform/branches/master/badge.svg)](https://semaphoreci.com/justo/publishing-platform)
 
 - [Trello][trello]
 - [Build Page][build-page]
