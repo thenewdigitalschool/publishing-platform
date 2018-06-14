@@ -1,4 +1,5 @@
 import React from 'react';
+import '../fonts/stylesheet.css';
 
 import Text from '../Components/Text';
 import Subtitle from '../Components/Subtitle';
@@ -21,7 +22,7 @@ export default () => (
     <Input label="Input Label" type="text" />
     <Label>This is Label</Label>
 
-    <ApplyLink LinkUrl="#">Apply Now</ApplyLink>
+    <ApplyLink classname="ApplyLink ApplyLink--home" LinkUrl="#">Apply Now </ApplyLink>
     <Quote>
       In the school there is not a typical day, like, you always have a different activies, but the
       good thing is that you can decide which activities you want to be involved with.
