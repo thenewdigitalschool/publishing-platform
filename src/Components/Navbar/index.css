@@ -1,0 +1,28 @@
+.nav-wrapper{
+    max-width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border: 1px solid red;
+    padding: 20px 0;
+    background-color: blue;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.link-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-item,.apply-button{
+    margin-left: 30px;
+}
+
+
+
+
