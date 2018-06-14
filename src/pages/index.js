@@ -1,4 +1,5 @@
 import React from "react";
+
 import Text from "../Components/Text";
 import Subtitle from "../Components/Subtitle";
 import Image from '../Components/Image';
@@ -14,9 +15,11 @@ import FooterLabel from '../Components/Footer/FooterLabel';
 import TndsLogo from '../Components/Logo';
 import Label from '../Components/Label';
 import Icons from '../Components/Icons';
+import Hero from '../Components/Hero';
 
 export default () => (
   <div>
+    <Hero/>
     <Image src="http://via.placeholder.com/400x450" alt="Alternate Text" />
     <Input label="Input Label" type="text" />
     <LabelTitle labelTitle="yoo" />
