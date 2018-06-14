@@ -1,8 +1,19 @@
+<<<<<<< HEAD
 import React from 'react';
 import '../fonts/stylesheet.css';
 
 import Text from '../Components/Text';
 import Subtitle from '../Components/Subtitle';
+||||||| parent of 91371d5... Add Hero Component
+import React from "react";
+import Text from "../Components/Text";
+import Subtitle from "../Components/Subtitle";
+=======
+import React from "react";
+
+import Text from "../Components/Text";
+import Subtitle from "../Components/Subtitle";
+>>>>>>> 91371d5... Add Hero Component
 import Image from '../Components/Image';
 import Input from '../Components/Input';
 import ApplyLink from '../Components/Link';
@@ -15,11 +26,23 @@ import FooterLabel from '../Components/Footer/FooterLabel';
 import TndsLogo from '../Components/Logo';
 import Label from '../Components/Label';
 import Icons from '../Components/Icons';
+<<<<<<< HEAD
 import Layout from './Layout';
 import Footer from '../Components/Footer';
+||||||| parent of 91371d5... Add Hero Component
+=======
+import Hero from '../Components/Hero';
+>>>>>>> 91371d5... Add Hero Component
 
 export default () => (
+<<<<<<< HEAD
   <Layout>
+||||||| parent of 91371d5... Add Hero Component
+  <div>
+=======
+  <div>
+    <Hero/>
+>>>>>>> 91371d5... Add Hero Component
     <Image src="http://via.placeholder.com/400x450" alt="Alternate Text" />
     <Input label="Input Label" type="text" />
     <Label>This is Label</Label>
