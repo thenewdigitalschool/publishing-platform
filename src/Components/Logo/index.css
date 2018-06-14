@@ -1,0 +1,17 @@
+.Logo{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  background-color: black;
+  color: #fff;
+  width: auto;
+  height: auto;
+
+}
+.Logo-image{
+  width: 340px;
+  height: 29px;
+  font-size: 16px;
+  line-height: 24px;
+  color:#FFFFFF;
+}

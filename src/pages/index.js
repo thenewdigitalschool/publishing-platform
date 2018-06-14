@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 
 import Image from '../Components/Image';
@@ -30,3 +31,14 @@ export default () => (
 
   </div>
 );
+=======
+import React from "react";
+
+import TndsLogo from '../Components/Logo';
+
+export default () =>
+
+<TndsLogo>
+  why we do what we do
+</TndsLogo>
+>>>>>>> 8d1dfc5... adding the logo, ready for revision
