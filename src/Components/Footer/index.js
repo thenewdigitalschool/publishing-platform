@@ -26,7 +26,7 @@ export default class Footer extends Component {
               <Icons />
             </div>
           </div>
-          <Link LinkText="Program" LinkUrl="http://thenewdigitalschool.com/fulltime_program" />
+          <Link LinkText="Program" href="http://thenewdigitalschool.com/fulltime_program" />
         </div>
         <BrandMark />
       </section>

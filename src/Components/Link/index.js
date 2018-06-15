@@ -5,7 +5,7 @@ import './index.css';
 export default class ApplyLink extends Component {
   render() {
     return (
-      <a className={this.props.classname} href={this.props.LinkUrl}>
+      <a className={this.props.className} href={this.props.href}>
         <span className="ApplyLink-text">{this.props.children}</span>{' '}
       </a>
     );
@@ -13,7 +13,7 @@ export default class ApplyLink extends Component {
 }
 
 ApplyLink.propTypes = {
-  classname: PropTypes.string.isRequired,
-  LinkUrl: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
+  href: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
 };

@@ -30,7 +30,7 @@ export default () => (
       good thing is that you can decide which activities you want to be involved with.
     </Quote>
     <Title propTitle="Shit, It's Working" />
-    <Avatar src="https://unsplash.it/1200/800/?random"/>
+    <Avatar src="https://unsplash.it/1200/800/?random" />
     <FooterLabel>This is a fooooooter label</FooterLabel>
     <Footerlink
       linkurl=""
