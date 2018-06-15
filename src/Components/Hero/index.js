@@ -9,9 +9,8 @@ export default class Hero extends Component {
     return (
       <div className="Hero">
         {this.props.children}
-        /* logo goes here
-        nav bar goes here */
-        <div className="FeatureContainer">
+        /* the logo & nav bar goes here */
+        <div className="Hero-featureContainer">
           <Title>Telmos Story</Title>
           <Quote>
             "In the school there is not a typical day, like, you always have a
