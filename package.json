@@ -5,7 +5,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "test": "eslint --config ./.eslintrc ./src/"
   },
   "dependencies": {
     "gatsby": "^1.9.250",
