@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Euclid Flex';
+    src: url('EuclidFlexItalic.woff2') format('woff2'),
+        url('EuclidFlexItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Flex';
+    src: url('EuclidFlexUltralight.woff2') format('woff2'),
+        url('EuclidFlexUltralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Flex';
+    src: url('EuclidFlexLight.woff2') format('woff2'),
+        url('EuclidFlexLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Flex';
+    src: url('EuclidFlexLightItalic.woff2') format('woff2'),
+        url('EuclidFlexLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Flex';
+    src: url('EuclidFlexBold.woff2') format('woff2'),
+        url('EuclidFlexBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Flex';
+    src: url('EuclidFlexBoldItalic.woff2') format('woff2'),
+        url('EuclidFlexBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Flex';
+    src: url('EuclidFlexUltralightItalic.woff2') format('woff2'),
+        url('EuclidFlexUltralightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Flex';
+    src: url('EuclidFlex.woff2') format('woff2'),
+        url('EuclidFlex.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Flex';
+    src: url('EuclidFlexMediumItalic.woff2') format('woff2'),
+        url('EuclidFlexMediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Flex';
+    src: url('EuclidFlexMedium.woff2') format('woff2'),
+        url('EuclidFlexMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+

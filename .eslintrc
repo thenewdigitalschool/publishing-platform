@@ -1,0 +1,13 @@
+{
+  "plugins": ["jsx-a11y"],
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "plugin:jsx-a11y/recommended"],
+  "rules": {
+    "react/jsx-filename-extension": 0,
+    "react/prefer-stateless-function": 0
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  }
+}
