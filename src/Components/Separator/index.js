@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './index.css';
 
 export default class Separator extends Component {
-  render() {
+    render() {
     return (
       <div className="Separator">
         <h1 className="Separator-title">{this.props.children}</h1>
