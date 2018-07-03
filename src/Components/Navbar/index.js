@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 
 import './index.css';
-import Link from '../Navigation/Link';
+import NavigationLink from '../Navigation/Link';
 import TndsLogo from '../Logo';
 
 export default class Navbar extends Component {
@@ -13,16 +13,16 @@ export default class Navbar extends Component {
           <TndsLogo />
         </div>
         <div className="Navbar-Links">
-          <Link l="#" linklabel="About Us" />
-          <Link linkurl="#" linklabel="Full Time Program" />
-          <Link linkurl="#" linklabel="Living in Porto" />
-          <Link linkurl="#" linklabel="Apply Now" />
+          <NavigationLink linkurl="#" linklabel="About Us" />
+          <NavigationLink linkurl="#" linklabel="Full Time Program" />
+          <NavigationLink linkurl="#" linklabel="Living in Porto" />
+          <NavigationLink linkurl="#" linklabel="Apply Now" />
         </div>
       </div>
     );
   }
 }
-Link.propTypes = {
+NavigationLink.propTypes = {
   linkurl: PropTypes.string.isRequired,
   linklabel: PropTypes.string.isRequired,
 };
