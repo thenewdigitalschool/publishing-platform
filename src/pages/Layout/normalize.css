@@ -1,0 +1,21 @@
+html,
+body,
+#___gatsby,
+[data-reactroot] {
+  min-height: 100%;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: auto;
+  text-rendering: optimizeLegibility;
+}
+
+[data-reactroot] {
+  display: flex;
+}
+
+html,
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
