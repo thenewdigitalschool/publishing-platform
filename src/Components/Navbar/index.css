@@ -1,35 +1,40 @@
+
 .Navbar{
     box-sizing: border-box;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 80vw;
-    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
-    border: 1px solid red;
+    width: 90vw;
+    max-width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
     padding: 20px 0;
-    background-color: blue;
+    background-color: red;
+
 }
 ul{
     list-style-type: none;
 }
 .Navbar-Logo{
-    display: inline;
+    /* display: inline; */
     display: flex;
     align-items: center;
+    width: 50%;
   }
 .Navbar-Links{
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #000;
 }
-.link-item,.apply-button{
-    margin-left: 30px;
-  }
+
 .Navbar-Links div:last-child .Link{
     background-color:blue;
     padding: 30px;
 }
+
+/* .Navbar-Links div:last-child .Link{
+    background-color:blue;
+    padding: 30px;
+} */
