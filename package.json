@@ -5,10 +5,24 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "test": "eslint --config ./.eslintrc ./src/"
   },
   "dependencies": {
-    "gatsby": "^1.9.250",
-    "gatsby-link": "^1.6.40"
+    "gatsby": "^1.9.273",
+    "npm": "^6.1.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.9.1",
+    "gh-pages": "^1.2.0"
   }
 }
