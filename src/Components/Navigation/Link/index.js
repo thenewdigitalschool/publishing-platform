@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import './index.css';
 
@@ -12,3 +12,10 @@ export default class Link extends Component {
       );
     }
   }
+
+
+Link.propTypes = {
+  linkurl: PropTypes.string.isRequired,
+  linklabel: PropTypes.string.isRequired,
+};
+

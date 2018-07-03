@@ -1,10 +1,11 @@
+import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import './index.css';
 
-import Link from '../Navigation/link';
+import './index.css';
+import NavigationLink from '../Navigation/Link';
 import TndsLogo from '../Logo';
 
-export default class Navbar extends React.Component {
+export default class Navbar extends Component {
   render() {
     return (
       <div className="Navbar">
@@ -12,12 +13,17 @@ export default class Navbar extends React.Component {
           <TndsLogo />
         </div>
         <div className="Navbar-Links">
-          <Link linkurl="" linklabel="About Us" />
-          <Link linkurl="" linklabel="Full Time Program" />
-          <Link linkurl="" linklabel="Living in Porto" />
-          <Link linkurl="" linklabel="Apply Now" />
+
+          <NavigationLink linkurl="#" linklabel="About Us" />
+          <NavigationLink linkurl="#" linklabel="Full Time Program" />
+          <NavigationLink linkurl="#" linklabel="Living in Porto" />
+          <NavigationLink linkurl="#" linklabel="Apply Now" />
         </div>
       </div>
     );
   }
 }
+NavigationLink.propTypes = {
+  linkurl: PropTypes.string.isRequired,
+  linklabel: PropTypes.string.isRequired,
+};
