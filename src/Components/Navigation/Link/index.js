@@ -18,4 +18,3 @@ Link.propTypes = {
   linkurl: PropTypes.string.isRequired,
   linklabel: PropTypes.string.isRequired,
 };
-
