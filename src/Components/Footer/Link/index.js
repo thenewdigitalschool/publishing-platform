@@ -2,21 +2,14 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import './index.css';
 
-
 export default class Link extends Component {
   render() {
     return (
       <div>
-        <a className="Link" href={this.props.linkurl}>{this.props.linklabel} </a>
+        <a className="Link" href={this.props.linkurl}>
+          {this.props.linklabel}{' '}
+        </a>
       </div>
-
-export default class Link extends Component {
-  render() {
-    return (
-      <a className="Link" href={this.props.linkurl}>
-        {this.props.linklabel}{' '}
-      </a>
-
     );
   }
 }

@@ -60,3 +60,8 @@ typings/
 .cache/
 public
 yarn-error.log
+<<<<<<< HEAD
+/**/*.DS_Store
+=======
+.DS_Store
+>>>>>>> a60afa2... font face added
