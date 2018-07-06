@@ -26,26 +26,27 @@ export default () => (
     <Label>This is Label</Label>
 
     <ApplyLink classname="ApplyLink ApplyLink--home" LinkUrl="#">
-			Apply Now{' '}
+Apply Now{' '}
     </ApplyLink>
     <Quote>
-			In the school there is not a typical day, like, you always have a different activies, but the
-			good thing is that you can decide which activities you want to be involved with.
+In the school there is not a typical day, like, you always have a different activies, but the
+good thing is that you can decide which activities you want to be involved with.
     </Quote>
     <Title propTitle="Shit, It's Working" />
     <Avatar src="https://unsplash.it/1200/800/?random" />
     <FooterLabel>This is a fooooooter label</FooterLabel>
     <Footerlink
       linkurl=""
-      linklabel="Founders Founders Rua da Constituição 346 4200-192 Porto, Portugal"/>
+      linklabel="Founders Founders Rua da Constituição 346 4200-192 Porto, Portugal"
+    />
     <NavigationLink linkurl="" linklabel="ABOUT US" />
     <TndsLogo>why we do what we do</TndsLogo>
     <Text>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus faucibus erat vel
-			suscipit. Pellentesque molestie sapien eu dolor bibendum, blandit blandit enim gravida.
-			Phasellus et eros diam. Aenean elementum orci sem, id malesuada massa feugiat vitae. Phasellus
-			nunc diam, suscipit eleifend diam id, gravida ultrices leo. Donec posuere felis orci, vel
-			hendrerit ligula vestibulum ac. Integer blandit at augue eget congue.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus faucibus erat vel
+suscipit. Pellentesque molestie sapien eu dolor bibendum, blandit blandit enim gravida.
+Phasellus et eros diam. Aenean elementum orci sem, id malesuada massa feugiat vitae. Phasellus
+nunc diam, suscipit eleifend diam id, gravida ultrices leo. Donec posuere felis orci, vel
+hendrerit ligula vestibulum ac. Integer blandit at augue eget congue.
     </Text>
     <Subtitle>This is a subtitle</Subtitle>
     <Icons />
