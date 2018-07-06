@@ -1,0 +1,46 @@
+.MailingList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.MailingList-button {
+  background: #0652FD;
+  padding: 0 60px;
+  border: none;
+  height: 40px;
+  margin-left: 10px;
+  color: #fff;
+  font-family: 'Euclid Flex', sans-serif;
+  font-size: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.MailingList-button:before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #fff;
+  top: 0;
+  left: 0;
+  transform: translate(-150%, -150%) rotate(-45deg) scale(1);
+  transition: all 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.MailingList-button:hover:before {
+  transform: translate(0) rotate(-45deg) scale(4);
+}
+
+.MailingList-buttonText {
+  position: relative;
+  z-index: 10;
+  transition: all 0.6s ease-in-out;
+}
+
+.MailingList-button:hover .MailingList-buttonText {
+  color: #0652FD;
+}
