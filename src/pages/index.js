@@ -2,6 +2,7 @@ import React from 'react';
 import '../fonts/stylesheet.css';
 
 import Text from '../Components/Text';
+
 import Separator from '../Components/Separator';
 import Subtitle from '../Components/Subtitle';
 import Image from '../Components/Image';
@@ -24,7 +25,6 @@ export default () => (
     <Image src="http://via.placeholder.com/400x450" alt="Alternate Text" />
     <Input label="Input Label" type="text" />
     <Label>This is Label</Label>
-
     <ApplyLink classname="ApplyLink ApplyLink--home" LinkUrl="#">
 Apply Now{' '}
     </ApplyLink>
@@ -42,6 +42,7 @@ good thing is that you can decide which activities you want to be involved with.
     <NavigationLink linkurl="" linklabel="ABOUT US" />
     <TndsLogo>why we do what we do</TndsLogo>
     <Text>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus faucibus erat vel
 suscipit. Pellentesque molestie sapien eu dolor bibendum, blandit blandit enim gravida.
 Phasellus et eros diam. Aenean elementum orci sem, id malesuada massa feugiat vitae. Phasellus
@@ -52,5 +53,6 @@ hendrerit ligula vestibulum ac. Integer blandit at augue eget congue.
     <Icons />
     <Footer />
     <Separator>Title inside a separator</Separator>
+
   </Layout>
 );
