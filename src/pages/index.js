@@ -2,6 +2,8 @@ import React from 'react';
 import '../fonts/stylesheet.css';
 
 import Text from '../Components/Text';
+
+import Separator from '../Components/Separator';
 import Subtitle from '../Components/Subtitle';
 import Image from '../Components/Image';
 import Input from '../Components/Input';
@@ -23,11 +25,12 @@ export default () => (
     <Image src="http://via.placeholder.com/400x450" alt="Alternate Text" />
     <Input label="Input Label" type="text" />
     <Label>This is Label</Label>
-
-    <ApplyLink classname="ApplyLink ApplyLink--home" LinkUrl="#">Apply Now </ApplyLink>
+    <ApplyLink classname="ApplyLink ApplyLink--home" LinkUrl="#">
+Apply Now{' '}
+    </ApplyLink>
     <Quote>
-      In the school there is not a typical day, like, you always have a different activies, but the
-      good thing is that you can decide which activities you want to be involved with.
+In the school there is not a typical day, like, you always have a different activies, but the
+good thing is that you can decide which activities you want to be involved with.
     </Quote>
     <Title propTitle="Shit, It's Working" />
     <Avatar src="https://unsplash.it/1200/800/?random" />
@@ -39,14 +42,17 @@ export default () => (
     <NavigationLink linkurl="" linklabel="ABOUT US" />
     <TndsLogo>why we do what we do</TndsLogo>
     <Text>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus faucibus erat vel
-      suscipit. Pellentesque molestie sapien eu dolor bibendum, blandit blandit enim gravida.
-      Phasellus et eros diam. Aenean elementum orci sem, id malesuada massa feugiat vitae. Phasellus
-      nunc diam, suscipit eleifend diam id, gravida ultrices leo. Donec posuere felis orci, vel
-      hendrerit ligula vestibulum ac. Integer blandit at augue eget congue.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus faucibus erat vel
+suscipit. Pellentesque molestie sapien eu dolor bibendum, blandit blandit enim gravida.
+Phasellus et eros diam. Aenean elementum orci sem, id malesuada massa feugiat vitae. Phasellus
+nunc diam, suscipit eleifend diam id, gravida ultrices leo. Donec posuere felis orci, vel
+hendrerit ligula vestibulum ac. Integer blandit at augue eget congue.
     </Text>
     <Subtitle>This is a subtitle</Subtitle>
     <Icons />
     <Footer />
+    <Separator>Title inside a separator</Separator>
+
   </Layout>
 );
