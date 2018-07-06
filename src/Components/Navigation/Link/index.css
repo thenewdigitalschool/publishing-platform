@@ -3,6 +3,17 @@
     line-height: 22px;
     font-family: 'Euclid Flex' sans-serif;
     font-weight: normal;
+    padding: 30px 20px 35px 0;
+    /* margin-bottom: 50px; */
+    color: rgba(255, 255, 255, 0.7);
+    /* color:#000; */
+    /* background-color: #0b1129; */
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.Link:hover{
+    color: rgba(255, 255, 255, 1);
     padding: 30px 0 35px 0;
     margin-bottom: 50px;
     color: rgba(255, 255, 255, 0.7);

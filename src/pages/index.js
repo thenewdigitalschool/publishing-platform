@@ -2,7 +2,6 @@ import React from 'react';
 import '../fonts/stylesheet.css';
 
 import Text from '../Components/Text';
-
 import Separator from '../Components/Separator';
 import Subtitle from '../Components/Subtitle';
 import Image from '../Components/Image';
@@ -13,6 +12,7 @@ import Title from '../Components/Title';
 import Avatar from '../Components/Avatar';
 import Footerlink from '../Components/Footer/Link';
 import NavigationLink from '../Components/Navigation/Link';
+import Navbar from '../Components/Navbar';
 import FooterLabel from '../Components/Footer/FooterLabel';
 import TndsLogo from '../Components/Logo';
 import Label from '../Components/Label';
@@ -41,6 +41,7 @@ good thing is that you can decide which activities you want to be involved with.
       linklabel="Founders Founders Rua da Constituição 346 4200-192 Porto, Portugal"
     />
     <NavigationLink linkurl="" linklabel="ABOUT US" />
+    <Navbar />
     <TndsLogo>why we do what we do</TndsLogo>
     <Text>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus faucibus erat vel

@@ -6,7 +6,14 @@
   color: #fff;
   width: auto;
   height: auto;
-
+  /* flex-direction: column; */
+  padding: 0;
+  /* background-color: black; */
+  color: #fff;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
 }
 .Logo-image{
   width: 340px;
