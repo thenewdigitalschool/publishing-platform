@@ -15,16 +15,16 @@ ul{
     /* display: inline; */
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 30%;
 }
 .Navbar-Links{
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #000;
 }
-.Navbar-Links div:last-child.Link{
+.Navbar-Links NavigationLink:last-child.Link{
     background-color:blue;
     padding: 30px;
 }

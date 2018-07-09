@@ -1,11 +1,11 @@
 .Link {
     font-size: 16px;
     line-height: 22px;
-    font-family: 'Euclid Flex' sans-serif;
+    font-family: 'Euclid Flex',sans-serif;
     font-weight: normal;
     padding: 30px 0 35px 0;
     margin-bottom: 50px;
-    margin-right: 30px;
     color: rgba(255, 255, 255, 0.7);
+    margin-right: 12px;
     text-decoration: none;
 }

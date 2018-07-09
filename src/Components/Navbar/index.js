@@ -13,7 +13,6 @@ export default class Navbar extends Component {
           <TndsLogo />
         </div>
         <div className="Navbar-Links">
-
           <NavigationLink linkurl="#" linklabel="About Us" />
           <NavigationLink linkurl="#" linklabel="Full Time Program" />
           <NavigationLink linkurl="#" linklabel="Living in Porto" />
