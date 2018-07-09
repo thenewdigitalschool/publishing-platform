@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 
 import './index.css';
@@ -10,7 +11,7 @@ export default class Hero extends Component {
     return (
       <div className="Hero">
         {this.props.children}
-        <Navigation/>
+        <Navigation />
         <div className="Hero-featureContainer">
           <Title>Telmos Story</Title>
           <Quote>
@@ -20,6 +21,9 @@ export default class Hero extends Component {
           </Quote>
         </div>
       </div>
-    )
+    );
   }
 }
+Hero.propTypes = {
+  children: PropTypes.node.isRequired,
+};
