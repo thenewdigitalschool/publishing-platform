@@ -10,7 +10,7 @@ export default class Hero extends Component {
     return (
       <div className="Hero">
         {this.props.children}
-        <Navigation></Navigation>
+        <Navigation/>
         <div className="Hero-featureContainer">
           <Title>Telmos Story</Title>
           <Quote>
