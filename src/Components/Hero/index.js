@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './index.css';
 import Quote from '../Quote';
 import Title from '../Title';
-import Navigation from '../Components/Navigation';
+import Navigation from '../Navbar';
 
 export default class Hero extends Component {
   render() {
