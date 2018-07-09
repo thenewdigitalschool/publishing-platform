@@ -20,6 +20,7 @@ import Footer from '../Components/Footer';
 import Hero from '../Components/Hero';
 
 export default () => (
+
   <Layout>
     <Hero/>
     <Image src="http://via.placeholder.com/400x450" alt="Alternate Text" />
