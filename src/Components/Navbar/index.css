@@ -26,7 +26,14 @@ ul{
     color: #000;
     margin-right: 50px;
 }
+.Navbar-Links a{
+    padding: 15px;
+    align-self: center;
+}
 .Navbar-Links a:last-child.Link{
     background-color:blue;
     padding: 15px;
+    height: 100%;
+    align-self: center;
+    padding-top: 33px;
 }
