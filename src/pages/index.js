@@ -7,6 +7,6 @@ import Layout from './Layout';
 export default () => (
 
   <Layout>
-    <Hero/>
+    <Hero />
   </Layout>
 );
