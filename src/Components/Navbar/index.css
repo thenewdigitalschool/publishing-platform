@@ -16,7 +16,7 @@ ul{
     display: flex;
     align-items: center;
     width: 50%;
-  }
+}
 .Navbar-Links{
     width: 50%;
     display: flex;
@@ -24,8 +24,7 @@ ul{
     align-items: center;
     color: #000;
 }
-
-.Navbar-Links div:last-child .Link{
+.Navbar-Links div:last-child.Link{
     background-color:blue;
     padding: 30px;
 }
