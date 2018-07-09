@@ -1,7 +1,11 @@
 .Link {
     font-size: 16px;
     line-height: 22px;
+<<<<<<< HEAD
     font-family: 'Euclid Flex',sans-serif;
+=======
+    font-family: 'Euclid Flex', sans-serif;
+>>>>>>> a5640265d8efd8e9d865a23da9481660a7a081de
     font-weight: normal;
     padding: 30px 0 35px 0;
     color: rgba(255, 255, 255, 0.7);
