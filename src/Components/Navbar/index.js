@@ -10,7 +10,9 @@ export default class Navbar extends Component {
     return (
       <div className="Navbar">
         <div className="Navbar-Logo">
-          <TndsLogo />
+          <TndsLogo>
+          hacking design education
+          </TndsLogo>
         </div>
         <div className="Navbar-Links">
           <NavigationLink linkurl="#" linklabel="About Us" />

@@ -2,11 +2,11 @@
 .Navbar{
     box-sizing: border-box;
     display: flex;
-    justify-content: space-around;
     align-content: center;
-    width: 90vw;
+    height: 90px;
     max-width: 90%;
     margin: 0 auto;
+
 }
 ul{
     list-style-type: none;
@@ -14,17 +14,19 @@ ul{
 .Navbar-Logo{
     /* display: inline; */
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-self: center;
     width: 30%;
 }
 .Navbar-Links{
     width: 70%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     color: #000;
+    margin-right: 50px;
 }
-.Navbar-Links NavigationLink:last-child.Link{
+.Navbar-Links a:last-child.Link{
     background-color:blue;
-    padding: 30px;
+    padding: 15px;
 }
