@@ -10,7 +10,7 @@
     "test": "eslint --config ./.eslintrc ./src/"
   },
   "dependencies": {
-    "gatsby": "^1.9.250",
+    "gatsby": "^1.9.273",
     "npm": "^6.1.0",
     "prop-types": "^15.6.1",
     "react": "^16.4.1"

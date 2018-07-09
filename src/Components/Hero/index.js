@@ -3,13 +3,14 @@ import React, { Component } from 'react';
 import './index.css';
 import Quote from '../Quote';
 import Title from '../Title';
+import Navigation from '../Components/Navigation';
 
 export default class Hero extends Component {
   render() {
     return (
       <div className="Hero">
         {this.props.children}
-        /* the logo & nav bar goes here */
+        <Navigation></Navigation>
         <div className="Hero-featureContainer">
           <Title>Telmos Story</Title>
           <Quote>
