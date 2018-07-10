@@ -5,9 +5,7 @@
     align-content: center;
     max-width: 90%;
     margin: 0 auto;
-}
-ul{
-    list-style-type: none;
+    height: 80px;
 }
 .Navbar-Logo{
     /* display: inline; */
@@ -18,20 +16,12 @@ ul{
 }
 .Navbar-Links{
     width: 70%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
+    display:inline-block;
+    text-align: right;
     color: #000;
-    margin-right: 50px;
-}
-.Navbar-Links a{
-    display: inline-block;
-    align-self: center;
-    margin-left:30px;
+    margin-top: 20px;
 }
 .Navbar-Links a:last-child.Link{
     background-color:blue;
-    padding: 10px;
-    align-self: center;
-    padding-top: 23px;
+
 }
