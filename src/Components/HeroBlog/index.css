@@ -1,0 +1,26 @@
+.Hero {
+  height: 70vh;
+  max-height: 815px;
+  background-size: cover;
+  background: url(./sunshine.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+  position: relatve ;
+}
+
+.Hero-featureContainer {
+  width: 50%;
+  margin: 10px;
+  /* padding: 0 6.4px 0 6.4px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Hero-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

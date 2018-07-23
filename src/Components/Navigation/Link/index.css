@@ -1,6 +1,7 @@
 .Link {
     font-size: 16px;
     line-height: 22px;
+<<<<<<< HEAD
     font-family: 'Euclid Flex' sans-serif;
     font-weight: normal;
     padding: 30px 20px 35px 0;
@@ -18,5 +19,12 @@
     margin-bottom: 50px;
     color: rgba(255, 255, 255, 0.7);
     background-color: #0b1129;
+=======
+    font-family: 'Euclid Flex', sans-serif;
+    font-weight: normal;
+    padding: 30px 0 35px 0;
+    color: rgba(255, 255, 255, 0.7);
+    padding-right: 15px;
+>>>>>>> 3e9d892... created the blog branch
     text-decoration: none;
 }

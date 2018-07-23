@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: fmmricardo/rm-blog
+
+publish_mode: editorial_workflow
+media_folder: "images/uploads"
+public_folder: assets
+
+collections:
+  - name: pages
+    label: Blog
+    folder: "/pages"
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: published, label: Published }
+      - { name: body, label: Body, widget: markdown }
+

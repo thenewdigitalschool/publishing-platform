@@ -11,10 +11,9 @@ export default class Layout extends Component {
         <nav className="Layout-navigation" />
         <div className="Layout-content">{this.props.children}</div>
         <footer className="Layout-footer" />
-
-      </div>);
+      </div>
+    );
   }
 }
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-};
+
+Layout.propTypes = { children: PropTypes.node.isRequired };
