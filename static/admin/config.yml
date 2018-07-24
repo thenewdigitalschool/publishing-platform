@@ -1,8 +1,6 @@
 backend:
   name: github
   repo: thenewdigitalschool/publishing-platform
-  branch: master
-
 
 publish_mode: editorial_workflow
 media_folder: "images/uploads"
