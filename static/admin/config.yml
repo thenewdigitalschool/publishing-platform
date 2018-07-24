@@ -1,6 +1,8 @@
 backend:
   name: github
-  repo: fmmricardo/rm-blog
+  repo: thenewdigitalschool/publishing-platform
+  branch: master
+
 
 publish_mode: editorial_workflow
 media_folder: "images/uploads"
