@@ -2,51 +2,14 @@
 .Navbar{
     box-sizing: border-box;
     display: flex;
-<<<<<<< HEAD
-    justify-content: space-around;
-    align-content: center;
-    width: 90vw;
-    max-width: 90%;
-    margin: 0 auto;
-    /* border: 1px solid red; */
-    padding: 20px 0;
-    background-color: red;
-
-}
-ul{
-    list-style-type: none;
-=======
     align-content: center;
     max-width: 90%;
     margin: 0 auto;
     height: 80px;
->>>>>>> 3e9d892... created the blog branch
 }
 .Navbar-Logo{
     /* display: inline; */
     display: flex;
-<<<<<<< HEAD
-    align-items: center;
-    width: 50%;
-  }
-.Navbar-Links{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #000;
-}
-
-.Navbar-Links div:last-child .Link{
-    background-color:blue;
-    padding: 30px;
-}
-
-/* .Navbar-Links div:last-child .Link{
-    background-color:blue;
-    padding: 30px;
-} */
-=======
     flex-direction: column;
     align-self: center;
     width: 30%;
@@ -62,4 +25,3 @@ ul{
     background-color:blue;
 
 }
->>>>>>> 3e9d892... created the blog branch
