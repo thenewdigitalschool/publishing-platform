@@ -31,6 +31,9 @@ const TemplateWrapper = ({ data }) => (
   </Layout>
 );
 
+TemplateWrapper.propTypes = {
+  data: PropTypes.string.isRequired,
+};
 
 export const pageQuery = graphql`
   query IndexQuery {
