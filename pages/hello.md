@@ -1,7 +1,7 @@
 ---
-path: firstPostOnCMS
+path: secondefirst
 date: '2018-07-24'
 title: HELLO
-published: 'True'
+published: 'true'
 ---
-Hi this is the first post from netlify cms
+this is the second post written on netlify cms
