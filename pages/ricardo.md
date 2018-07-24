@@ -1,7 +1,7 @@
 ---
-path: thirdpost
+path: '/pages/thirdpost'
 date: '2018-07-24'
-title: ricardo
+title: 'ricardo'
 published: 'true'
 ---
 ricardo

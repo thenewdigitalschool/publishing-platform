@@ -2,7 +2,7 @@
 
 path: '/pages/terceiro post'
 title: 'Terceiro Blog Post'
-published : true
+published: 'true'
 date: '2018-07-15'
 ---
 
