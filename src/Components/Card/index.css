@@ -1,0 +1,31 @@
+.Card {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: 'Euclid Flex', sans-serif;
+  border-bottom: 1px solid #ddd;
+  color: #000;
+}
+
+li:last-child .Card {
+  border-bottom: none;
+}
+
+.Card-PostTitle, .Card-PostTextPreview {
+  color: #000;
+}
+
+.Card-PostTitle {
+  font-size: 30px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.Card-PostDate {
+  color: #999;
+}
+
+.Card-PostTextPreview {
+  margin-top: 20px;
+}

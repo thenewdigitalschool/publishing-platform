@@ -6,13 +6,11 @@
   width: 100%;
 }
 .Layout-content{
-  height: 80vh;
-  color: white;
+  color: #fff;
   text-decoration: none;
-  background-color:#3637fb;
 }
 .Layout-content a{
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 .nav{
