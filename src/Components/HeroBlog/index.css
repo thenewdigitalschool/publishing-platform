@@ -2,11 +2,11 @@
   height: 70vh;
   max-height: 815px;
   background-size: cover;
-  background: url(./sunshine.png);
+  background: url(./Artboard.svg);
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center; 
-  position: relatve ;
+  position: relative ;
 }
 
 .Hero-featureContainer {
