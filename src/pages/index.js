@@ -5,6 +5,7 @@ import HeroBlog from '../Components/HeroBlog';
 import Layout from './Layout';
 import Footer from '../Components/Footer';
 import Card from '../Components/Card';
+import CardList from '../Components/CardList';
 import './index.css';
 import '../fonts/stylesheet.css';
 
@@ -15,7 +16,7 @@ const TemplateWrapper = ({ data }) => (
       <HeroBlog />
     </nav>
     <div className="Layout-content">
-      <ul>
+      <CardList>
         { data.allMarkdownRemark.edges.map(post => (
           <li>
             <Card>
@@ -27,7 +28,7 @@ const TemplateWrapper = ({ data }) => (
             </Card>
           </li>
         ))}
-      </ul>
+      </CardList>
     </div>
     <footer className="Layout-footer">
       <Footer />

@@ -7,11 +7,11 @@ export default class Card extends Component {
   render() {
     return (
       <article className="Card">
-        <div className="Card-PostPreview">
-          {this.props.children}
-        </div>
         <div className="Card-PostImage">
           <img src="http://via.placeholder.com/350x200" alt="Let's try describing this thing" />
+        </div>
+        <div className="Card-PostPreview">
+          {this.props.children}
         </div>
       </article>
     );
