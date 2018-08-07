@@ -51,7 +51,6 @@ export const pageQuery = graphql`
            frontmatter{
             title
             path
-            thumbnail
             published
             date
           }
