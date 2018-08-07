@@ -20,11 +20,16 @@ const TemplateWrapper = ({ data }) => (
         { data.allMarkdownRemark.edges.map(post => (
           <li>
             <Card>
-              <a key={post.node.id} href={post.node.frontmatter.path}>
-                <h3 className="Card-PostTitle">{ post.node.frontmatter.title }</h3>
-                <span className="Card-PostDate">Posted { post.node.frontmatter.date }</span>
-                <p className="Card-PostTextPreview">{ post.node.excerpt }</p>
-              </a>
+              <div className="Card-PostImage">
+                <img src={post.node.frontmatter.thumbnail} alt={post.node.frontmatter.title} />
+              </div>
+              <div className="Card-PostPreview">
+                <a key={post.node.id} href={post.node.frontmatter.path}>
+                  <h3 className="Card-PostTitle">{ post.node.frontmatter.title }</h3>
+                  <span className="Card-PostDate">Posted { post.node.frontmatter.date }</span>
+                  <p className="Card-PostTextPreview">{ post.node.excerpt }</p>
+                </a>
+              </div>
             </Card>
           </li>
         ))}
@@ -51,6 +56,7 @@ export const pageQuery = graphql`
            frontmatter{
             title
             path
+            thumbnail
             published
             date
           }
