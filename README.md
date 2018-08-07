@@ -1,6 +1,6 @@
 [trello]: https://trello.com/b/PaEUhd0e/publishing-platform
 [build-page]: https://semaphoreci.com/justo/publishing-platform
-[production]: https://thenewdigitalschool.github.io/publishing-platform/
+[production]: https://tndsblog.netlify.com/
 
 # Publishing Platform
 
