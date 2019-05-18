@@ -1,26 +1,19 @@
 .Hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   height: 70vh;
   max-height: 815px;
-  background-size: cover;
-  background: url(./Artboard.svg);
-  background-repeat: no-repeat;
-  background-size: cover; 
-  background-position: center; 
-  position: relative ;
+  background-color: #0000ff;
 }
 
 .Hero-featureContainer {
-  width: 50%;
-  margin: 10px;
-  /* padding: 0 6.4px 0 6.4px; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  font-size: 100px;
+  font-weight: 700;
 }
-.Hero-title{
+.Hero-title {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }

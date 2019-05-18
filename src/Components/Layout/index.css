@@ -1,25 +1,26 @@
 .Layout-footer {
-    background-color: #0B1129;
-    height:10px;
+  background-color: #0b1129;
+  height: 10px;
 }
-.Layout{
+.Layout {
   width: 100%;
+  background-color: #0000ff;
 }
-.Layout-content{
+.Layout-content {
   color: #fff;
   text-decoration: none;
 }
-.Layout-content a{
+.Layout-content a {
   color: #fff;
   text-decoration: none;
 }
-.nav{
+.nav {
   height: 10vh;
 }
-.Layout-footer{
+.Layout-footer {
   height: auto;
 }
-.Layout-blog{
+.Layout-blog {
   font-size: 42px;
   margin-left: 200px;
   margin-right: 200px;

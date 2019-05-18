@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
+import Navbar from '../Navbar';
+
 import './reset.css';
 import './normalize.css';
 import './index.css';
@@ -8,9 +10,8 @@ export default class Layout extends Component {
   render() {
     return (
       <div className="Layout">
-        <nav className="Layout-navigation" />
+        <Navbar />
         <div className="Layout-content">{this.props.children}</div>
-        <footer className="Layout-footer" />
       </div>
     );
   }

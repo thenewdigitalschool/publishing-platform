@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Layout from '../src/pages/Layout';
+import Layout from '../src/components/Layout';
 import Navbar from '../src/Components/Navbar';
 import Footer from '../src/Components/Footer';
 
@@ -24,10 +24,10 @@ export default function Template({ data }) {
   );
 }
 export const postQuery = graphql`
-  query BlogPostByPath ($path: String!){
-    markdownRemark(frontmatter: {path: {eq:$path} }){
-      html,
-      frontmatter{
+  query BlogPostByPath($path: String!) {
+    markdownRemark(frontmatter: {path: {eq: $path}}) {
+      html
+      frontmatter {
         path
         title
       }
