@@ -1,0 +1,27 @@
+
+.Navbar{
+    box-sizing: border-box;
+    display: flex;
+    align-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+    height: 80px;
+}
+.Navbar-Logo{
+    /* display: inline; */
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 30%;
+}
+.Navbar-Links{
+    width: 70%;
+    display:inline-block;
+    text-align: right;
+    color: #000;
+    margin-top: 20px;
+}
+.Navbar-Links a:last-child.Link{
+    background-color:blue;
+
+}

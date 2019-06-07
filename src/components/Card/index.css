@@ -1,0 +1,30 @@
+.Card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Euclid Flex', sans-serif;
+  border-bottom: 1px solid #eee;
+  color: #000;
+}
+
+.Card-PostTitle, .Card-PostTextPreview {
+  color: #000;
+}
+
+.Card-PostTitle {
+  font-size: 30px;
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+.Card-PostDate {
+  color: #999;
+}
+
+.Card-PostTextPreview {
+  margin-top: 20px;
+}
+
+.Card-PostImage img {
+  width: 100%;
+}
