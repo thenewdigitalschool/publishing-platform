@@ -4,4 +4,10 @@
 
 .Card-PostImage {
   max-width: 200px;
+  font-size: 88px;
+}
+
+.Card-PostImage {
+  max-width: 150px;
+  margin: auto;
 }

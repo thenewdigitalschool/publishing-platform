@@ -5,11 +5,7 @@ import './index.css';
 
 export default class Card extends Component {
   render() {
-    return (
-      <article className="Card">
-        {this.props.children}
-      </article>
-    );
+    return <article className="Card">{this.props.children}</article>;
   }
 }
 

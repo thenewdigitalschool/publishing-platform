@@ -16,12 +16,11 @@ const TemplateWrapper = ({ data }) => (
         {data.allMarkdownRemark.edges.map(post => (
           <li>
             <Card>
-              <div className="Card-PostImage">
-                <img
-                  src={post.node.frontmatter.thumbnail}
-                  alt={post.node.frontmatter.title}
-                />
-              </div>
+              <img
+                className="Card-PostImage"
+                src={post.node.frontmatter.thumbnail}
+                alt={post.node.frontmatter.title}
+              />
               <div className="Card-PostPreview">
                 <a key={post.node.id} href={post.node.frontmatter.path}>
                   <h3 className="Card-PostTitle">
