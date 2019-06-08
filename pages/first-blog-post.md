@@ -1,7 +1,7 @@
 ---
 path: /pages/first-post
 date: '2019-04-09'
-thumbnail: /images/photo.jpg
+thumbnail: /images/elena-koycheva-774495-unsplash.jpg
 title: First blog post
 published: 'true'
 ---
