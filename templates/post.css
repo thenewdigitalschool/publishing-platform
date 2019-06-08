@@ -1,3 +1,6 @@
 .Layout-blog {
   font-size: 24px;
 }
+.Layout-blog img {
+  width: 100px;
+}

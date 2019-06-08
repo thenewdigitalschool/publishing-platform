@@ -1,3 +1,7 @@
-.blog-title{
-    font-size: 72px;
+.blog-title {
+  font-size: 72px;
+}
+
+.Card-PostImage {
+  max-width: 200px;
 }
