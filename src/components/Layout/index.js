@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
+
 import Navbar from '../Navbar';
+import Footer from '../../components/Footer';
 
 import './reset.css';
 import './normalize.css';
@@ -12,6 +14,8 @@ export default class Layout extends Component {
       <div className="Layout">
         <Navbar />
         <div className="Layout-content">{this.props.children}</div>
+
+        <Footer />
       </div>
     );
   }
