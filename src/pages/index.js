@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 import HeroBlog from '../components/HeroBlog';
 import Layout from '../../src/components/Layout';
-import Footer from '../components/Footer';
 import Card from '../components/Card';
 import CardList from '../components/CardList';
 import './index.css';
@@ -11,9 +10,7 @@ import '../fonts/stylesheet.css';
 
 const TemplateWrapper = ({ data }) => (
   <Layout>
-    <nav>
-      <HeroBlog>TNDS Blog</HeroBlog>
-    </nav>
+    <HeroBlog>TNDS Blog</HeroBlog>
     <div className="Layout-content">
       <CardList>
         {data.allMarkdownRemark.edges.map(post => (
@@ -41,9 +38,6 @@ const TemplateWrapper = ({ data }) => (
         ))}
       </CardList>
     </div>
-    <footer className="Layout-footer">
-      <Footer />
-    </footer>
   </Layout>
 );
 

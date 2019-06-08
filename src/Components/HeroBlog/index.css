@@ -1,15 +1,17 @@
+@import '../settings';
+
 .Hero {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 15vh;
   max-height: 815px;
   background-color: #0000ff;
 }
 
 .Hero-featureContainer {
-  font-size: 100px;
+  font-size: var(--size-120);
   font-weight: 700;
 }
 .Hero-title {

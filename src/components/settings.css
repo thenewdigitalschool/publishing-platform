@@ -1,0 +1,21 @@
+:root {
+  --dark-blue: #0b1129;
+  --tnds-blue: #0652FD;
+  --white: #fff;
+  --grey: #b3b3ff;
+
+  --size-4: 4px;
+  --size-8: 8px;
+  --size-16: 16px;
+  --size-20: 20px;
+  --size-28: 28px;
+  --size-36: 36px;
+  --size-52: 52px;
+  --size-120: 120px;
+  --size-160: 160px;
+  --size-212: 212px;
+
+  --font-family-euclid: 'Euclid Flex';
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+}
