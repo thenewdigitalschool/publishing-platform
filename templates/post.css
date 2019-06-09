@@ -1,8 +1,15 @@
-@import '../src/components/settings';
-
 .Layout-blog {
-  font-size: var(--size-20);
+  font-size: 20px;
 }
+
 .Layout-blog img {
   width: 100px;
+}
+
+.postTitle {
+  padding: 30px auto;
+}
+
+.postImage {
+  margin: 30px auto;
 }
