@@ -12,7 +12,6 @@ collections:
     folder: "pages"
     create: true
     fields:
-      - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - { name: title, label: Title }
