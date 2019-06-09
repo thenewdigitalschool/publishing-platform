@@ -1,9 +1,11 @@
 ---
+path: /pages/second-post
 date: '2019-06-09'
 thumbnail: /images/1-ylb6hm2gsuc226oim8gb9w.jpeg
 title: Taking a Sabbatical Year in 2019
 published: 'true'
 ---
+
 ![](/images/1-ylb6hm2gsuc226oim8gb9w.jpeg)
 
 Why we decided to take a break and re-invent TNDS
@@ -28,7 +30,7 @@ And so, aiming for the same high standards that lead us from the start, we decid
 
 We learned a lot about education, business, design as a business, design as a craft and mostly… about people. But it wouldn’t be fair for us or anyone involved to keep pushing continuity under pressure just for the sake of keeping that same continuity, as most startups feel like they have to.
 
-\    Like many preconceptions we challenged before, in this case pushing continuity would be a mistake.
+\ Like many preconceptions we challenged before, in this case pushing continuity would be a mistake.
 
 There are several things we want to change in how the school works, making it more streamlined, adjusted to the students’ reality, as well as to that of companies we collaborate with. And so, armed with that passion and a sense of humbleness, and all the learnings from the past 2+ years we think the next edition of TNDS is going to ROCK! :)
 
