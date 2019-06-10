@@ -8,17 +8,15 @@ import CardList from '../components/CardList';
 import './index.css';
 import '../fonts/stylesheet.css';
 
-const TemplateWrapper = ({ data }) => {
-  const { edges } = data.allMarkdownRemark;
+const TemplateWrapper = ({data}) => {
+  const {edges} = data.allMarkdownRemark;
   return (
     <Layout>
       <HeroBlog>TNDS Blog</HeroBlog>
       <div className="Layout-content">
         <CardList>
           {edges.map((post) => {
-            const {
- thumbnail, title, path, date,
-} = post.node.frontmatter;
+            const {thumbnail, title, path, date} = post.node.frontmatter;
             return (
               <li>
                 <Card>
