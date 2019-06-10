@@ -1,16 +1,18 @@
+@import '../settings.css';
+
 .Layout-footer {
-  background-color: #0b1129;
+  background-color: var(--dark-blue);
   height: 10px;
 }
 
 .Layout {
   width: 100%;
-  background-color: #0000ff;
+  background-color: #fff;
 }
 
 .Layout-content {
-  margin: 100px 0;
-  color: #fff;
+  margin: 0;
+  color: var(--dark-blue);
   text-decoration: none;
 }
 
@@ -23,12 +25,17 @@
   height: 10vh;
 }
 
+.navbar {
+  margin: 0;
+  background: var(--tnds-blue);
+}
+
 .Layout-footer {
   height: auto;
 }
 
 .Layout-blog {
-  font-size: 42px;
+  font-size: var(--size-20);
   margin-left: 200px;
   margin-right: 200px;
 }

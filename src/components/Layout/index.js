@@ -12,7 +12,9 @@ export default class Layout extends Component {
   render() {
     return (
       <div className="Layout">
-        <Navbar />
+        <div className="navbar">
+          <Navbar />
+        </div>
         <div className="Layout-content">{this.props.children}</div>
 
         <Footer />
