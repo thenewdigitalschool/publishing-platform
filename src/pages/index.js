@@ -8,37 +8,37 @@ import CardList from '../components/CardList';
 import './index.css';
 import '../fonts/stylesheet.css';
 
-const TemplateWrapper = ({ data }) => (
-  <Layout>
-    <HeroBlog>TNDS Blog</HeroBlog>
-    <div className="Layout-content">
-      <CardList>
-        {data.allMarkdownRemark.edges.map(post => (
-          <li>
-            <Card>
-              <img
-                className="Card-PostImage"
-                src={post.node.frontmatter.thumbnail}
-                alt={post.node.frontmatter.title}
-              />
-              <div className="Card-PostPreview">
-                <a key={post.node.id} href={post.node.frontmatter.path}>
-                  <h3 className="Card-PostTitle">
-                    {post.node.frontmatter.title}
-                  </h3>
-                  <span className="Card-PostDate">
-                    Posted {post.node.frontmatter.date}
-                  </span>
-                  <p className="Card-PostTextPreview">{post.node.excerpt}</p>
-                </a>
-              </div>
-            </Card>
-          </li>
-        ))}
-      </CardList>
-    </div>
-  </Layout>
-);
+const TemplateWrapper = ({data}) => {
+  const {edges} = data.allMarkdownRemark;
+  return (
+    <Layout>
+      <HeroBlog>TNDS Blog</HeroBlog>
+      <div className="Layout-content">
+        <CardList>
+          {edges.map((post) => {
+            const {thumbnail, title, path, date} = post.node.frontmatter;
+            return (
+              <li>
+                <Card>
+                  <img className="Card-PostImage" src={thumbnail} alt={title} />
+                  <div className="Card-PostPreview">
+                    <a key={post.node.id} href={path}>
+                      <h3 className="Card-PostTitle">{title}</h3>
+                      <span className="Card-PostDate">Posted {date}</span>
+                      <p className="Card-PostTextPreview">
+                        {post.node.excerpt}
+                      </p>
+                    </a>
+                  </div>
+                </Card>
+              </li>
+            );
+          })}
+        </CardList>
+      </div>
+    </Layout>
+  );
+};
 
 TemplateWrapper.propTypes = {
   data: PropTypes.string.isRequired,

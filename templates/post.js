@@ -4,16 +4,15 @@ import Layout from '../src/components/Layout';
 import './post.css';
 
 export default function Template({ data }) {
-  const { markdownRemark: post } = data;
+  const { markdownRemark } = data;
+  const title = markdownRemark.frontmatter.title;
+  const html = markdownRemark.html;
   return (
     <Layout>
       <div className="Layout-content">
         <div className="Layout-blog">
-          <h1 className="postTitle">{post.frontmatter.title}</h1>
-          <div
-            className="postImage"
-            dangerouslySetInnerHTML={{ __html: post.html }}
-          />
+          <h1 className="postTitle">{title}</h1>
+          <div className="postImage" dangerouslySetInnerHTML={{ __html: html }} />
         </div>
       </div>
     </Layout>
