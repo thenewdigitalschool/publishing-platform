@@ -8,12 +8,13 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
   return graphql(`
     {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: {order: ASC, fields: [frontmatter__date]}) {
         edges {
           node {
             html
             id
             frontmatter {
+              index
               path
               title
             }
@@ -22,13 +23,16 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       }
     }
   `).then((res) => {
+    const posts = res.data.allMarkdownRemark.edges;
     if (res.errors) {
       return Promise.reject(res.errors);
     }
-    res.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    posts.forEach(({ node }, index) => {
       createPage({
         path: node.frontmatter.path,
         component: postTemplate,
+        prev: index === 0 ? null : posts[index - 1].node,
+        next: index === posts.lenght - 1 ? null : posts[index + 1].node,
       });
     });
   });

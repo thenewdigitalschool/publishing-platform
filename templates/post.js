@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../src/components/Layout';
 import './post.css';
 
-export default function Template({ data }) {
+export default function Template({ data, pageContext }) {
   const { markdownRemark } = data;
   const title = markdownRemark.frontmatter.title;
   const html = markdownRemark.html;
