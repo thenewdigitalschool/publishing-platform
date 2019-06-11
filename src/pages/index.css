@@ -1,5 +1,8 @@
+@import '../components/settings.css';
+
 .blog-title {
-  font-size: 72px;
+  font-size: var(--size-52);
+  font-height: var(--size-88);
 }
 
 .Card-PostImage {

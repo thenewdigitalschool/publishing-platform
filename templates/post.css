@@ -1,15 +1,17 @@
-.Layout-blog {
-  font-size: 20px;
-}
+@import '../src/components/settings.css';
 
+.Layout-blog {
+  font-size: var(--size-20);
+}
 .Layout-blog img {
   width: 100px;
 }
-
 .postTitle {
+  font-size: var(--size-52);
+  font-height: var(--size-88);
+  font-weight: var(--font-weight-bold);
   padding: 30px auto;
 }
-
 .postImage {
   margin: 30px auto;
 }
