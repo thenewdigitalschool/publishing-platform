@@ -11,7 +11,7 @@
 }
 
 .Layout-content {
-  margin: 0;
+  margin: var(--size-28) auto;
   color: var(--dark-blue);
   text-decoration: none;
 }
@@ -35,7 +35,12 @@
 }
 
 .Layout-blog {
-  font-size: var(--size-20);
-  margin-left: 200px;
-  margin-right: 200px;
+  font-size: var(--size-16);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 42rem;
+}
+
+.Layout-blog p {
+  margin-bottom: var(--size-20);
 }
