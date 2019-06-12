@@ -12,7 +12,7 @@ export default function Template({ data }) {
       <div className="Layout-content">
         <div className="Layout-blog">
           <h1 className="postTitle">{title}</h1>
-          <div className="postImage" dangerouslySetInnerHTML={{ __html: html }} />
+          <div className="postBody" dangerouslySetInnerHTML={{ __html: html }} />
         </div>
       </div>
     </Layout>
