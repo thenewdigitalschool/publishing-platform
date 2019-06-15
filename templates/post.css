@@ -11,7 +11,7 @@
 
 .postTitle {
   font-size: var(--size-52);
-  font-height: var(--size-88);
+  line-height: var(--size-88);
   font-weight: var(--font-weight-bold);
   padding: 30px auto;
 }
