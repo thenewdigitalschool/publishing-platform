@@ -10,15 +10,21 @@ export default class Navbar extends Component {
     return (
       <div className="Navbar">
         <div className="Navbar-Logo">
-          <TndsLogo>
-          hacking design education
-          </TndsLogo>
+          <TndsLogo>hacking design education</TndsLogo>
         </div>
         <div className="Navbar-Links">
-          <NavigationLink linkurl="#" linklabel="About Us" />
-          <NavigationLink linkurl="#" linklabel="Full Time Program" />
-          <NavigationLink linkurl="#" linklabel="Living in Porto" />
-          <NavigationLink linkurl="#" linklabel="Apply Now" />
+          <NavigationLink
+            linkurl="http://thenewdigitalschool.com/about"
+            linklabel="About Us"
+          />
+          <NavigationLink
+            linkurl="http://thenewdigitalschool.com/fulltime_program"
+            linklabel="Full Time Program"
+          />
+          <NavigationLink
+            linkurl="http://thenewdigitalschool.com/application"
+            linklabel="Apply Now"
+          />
         </div>
       </div>
     );
