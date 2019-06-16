@@ -22,10 +22,11 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       }
     }
   `).then((res) => {
+    const posts = res.data.allMarkdownRemark.edges;
     if (res.errors) {
       return Promise.reject(res.errors);
     }
-    res.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    posts.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
         component: postTemplate,
