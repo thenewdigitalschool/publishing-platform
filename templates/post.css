@@ -9,6 +9,16 @@
   width: 100px;
 }
 
+.Layout a {
+  color: black;
+  font-size: var(--size-20);
+}
+
+.backArrow {
+  font-size: var(--size-28);
+  font-weight: var(--font-weight-bold);
+}
+
 .postTitle {
   font-size: var(--size-52);
   line-height: var(--size-88);

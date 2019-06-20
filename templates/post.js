@@ -13,6 +13,11 @@ export default function Template({ data }) {
         <div className="Layout-blog">
           <h1 className="postTitle">{title}</h1>
           <div className="postBody" dangerouslySetInnerHTML={{ __html: html }} />
+          <div>
+            <a href="/">
+              <span className="backArrow">←</span> Back to Homepage
+            </a>
+          </div>
         </div>
       </div>
     </Layout>
