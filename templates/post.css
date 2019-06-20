@@ -9,7 +9,7 @@
   width: 100px;
 }
 
-.Layout a {
+.backLink {
   color: black;
   font-size: var(--size-20);
 }
