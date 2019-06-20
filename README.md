@@ -8,7 +8,7 @@
 
 - [Trello][trello]
 - [Build Page][build-page]
-- [Production][production]
+- [Production](https://tndsblog.netlify.com)
 
 Platform to publish TNDS student's case studies
 
