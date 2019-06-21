@@ -15,7 +15,7 @@ export default function Template({ data }) {
           <div className="postBody" dangerouslySetInnerHTML={{ __html: html }} />
           <div>
             <a className="backLink" href="/">
-              <span className="backArrow">←</span> Back to Homepage
+              ← Back to Homepage
             </a>
           </div>
         </div>

@@ -15,6 +15,7 @@
 }
 
 .backArrow {
+  color: black;
   font-size: var(--size-28);
   font-weight: var(--font-weight-bold);
 }
