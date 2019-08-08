@@ -1,7 +1,14 @@
+@import '../settings.css';
+
 .Icons {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+
+  @media (--tablet-breakpoint) {
+    flex-direction: row;
+  }
 }
 
 .Icons-single {
-    margin: 0px 12px;
+  margin: 0px 12px;
 }

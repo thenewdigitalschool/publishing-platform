@@ -1,10 +1,17 @@
+@import '../settings.css';
+
 .Card {
-  padding: 30px;
+  padding-top: 20px;
+  flex-direction: column;
   display: flex;
-  flex-direction: row;
   font-family: 'Euclid Flex', sans-serif;
   border-bottom: 1px solid #eee;
   color: #000;
+
+  @media (--tablet-breakpoint) {
+    padding: 30px;
+    flex-direction: row;
+  }
 }
 
 .Card-PostTextPreview {
@@ -31,7 +38,21 @@
   margin-top: 20px;
 }
 
+.Card-PostImage {
+  max-width: 200px;
+  font-size: 88px;
+}
+
+.Card-PostImage {
+  margin: auto;
+}
+
 .Card-PostImage img {
   width: 100%;
-  margin-right: 100px;
+
+  @media (--tablet-breakpoint) {
+    padding: 30px;
+    flex-direction: row;
+    margin-right: 100px;
+  }
 }

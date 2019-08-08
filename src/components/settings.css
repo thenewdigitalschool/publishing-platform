@@ -1,6 +1,6 @@
 :root {
   --dark-blue: #0b1129;
-  --tnds-blue: #0652FD;
+  --tnds-blue: #0652fd;
   --white: #fff;
   --grey: #b3b3ff;
 
@@ -20,4 +20,6 @@
   --font-family-sans-serif: 'sans-serif';
   --font-weight-bold: 700;
   --font-weight-normal: 400;
+
+  @custom-media --tablet-breakpoint (min-width: 760px);
 }

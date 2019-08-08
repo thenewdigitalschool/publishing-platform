@@ -5,12 +5,11 @@
   font-height: var(--size-88);
 }
 
-.Card-PostImage {
-  max-width: 200px;
-  font-size: 88px;
-}
-
-.Card-PostImage {
-  max-width: 150px;
-  margin: auto;
+.Layout-Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  grid-gap: 20px;
+  grid-gap: 20px;
 }

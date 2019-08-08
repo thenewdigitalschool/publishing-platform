@@ -19,7 +19,6 @@ module.exports = {
         name: 'images',
       },
     },
-    'gatsby-transformer-remark',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
