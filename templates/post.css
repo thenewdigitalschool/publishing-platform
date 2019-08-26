@@ -28,5 +28,10 @@
 }
 
 .postBody {
+  width: 100%;
+
   margin: var(--size-28) auto;
+  @media (--tablet-breakpoint) {
+    margin: var(--size-36) auto;
+  }
 }

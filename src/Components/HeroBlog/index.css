@@ -1,14 +1,8 @@
 @import '../settings.css';
 
 .Hero {
-  height: 70vh;
   max-height: 815px;
   background-size: cover;
-  background: url(./image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
 
   color: var(--dark-blue);
   display: flex;
@@ -19,8 +13,12 @@
 }
 
 .Hero-featureContainer {
-  font-size: var(--size-120);
+  font-size: var(--size-36);
   font-weight: 700;
+  @media (--tablet-breakpoint) {
+    font-size: var(--size-88);
+    font-weight: 700;
+  }
 }
 .Hero-title {
   display: flex;

@@ -11,6 +11,15 @@
 }
 
 .Layout-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 750px;
+  padding: var(--size-52) var(--size-28);
+  margin-right: auto;
+
+  margin-left: auto;
+
   color: var(--dark-blue);
   text-decoration: none;
 }

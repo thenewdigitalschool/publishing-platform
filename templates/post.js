@@ -3,21 +3,19 @@ import React from 'react';
 import Layout from '../src/components/Layout';
 import './post.css';
 
-export default function Template({ data }) {
-  const { markdownRemark } = data;
+export default function Template({data}) {
+  const {markdownRemark} = data;
   const title = markdownRemark.frontmatter.title;
   const html = markdownRemark.html;
   return (
     <Layout>
-      <div className="Layout-content">
-        <div className="Layout-blog">
-          <h1 className="postTitle">{title}</h1>
-          <div className="postBody" dangerouslySetInnerHTML={{ __html: html }} />
-          <div>
-            <a className="backLink" href="/">
-              ← Back to Homepage
-            </a>
-          </div>
+      <div className="Layout-blog">
+        <h1 className="postTitle">{title}</h1>
+        <div className="postBody" dangerouslySetInnerHTML={{__html: html}} />
+        <div>
+          <a className="backLink" href="/">
+            ← Back to Homepage
+          </a>
         </div>
       </div>
     </Layout>
