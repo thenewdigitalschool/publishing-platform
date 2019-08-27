@@ -1,4 +1,5 @@
 @import '../settings.css';
+
 .Navbar {
   display: flex;
   flex-direction: column;
@@ -6,17 +7,18 @@
   height: 150px;
 
   @media (--tablet-breakpoint) {
-    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-content: center;
+    justify-content: initial;
     max-width: 90%;
     margin: 0 auto;
+    padding: var(--size-36) 0;
     height: 80px;
   }
 }
+
 .Navbar-Logo {
-  /* display: inline; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,10 +29,11 @@
     flex-direction: column;
     align-self: center;
     width: 30%;
+    padding: var(--size-28) 0;
   }
 }
+
 .Navbar-Links {
-  margin: o auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -44,6 +47,7 @@
     color: #000;
   }
 }
+
 .Navbar-Links a:last-child.Link {
   @media (--tablet-breakpoint) {
     background-color: blue;

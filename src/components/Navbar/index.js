@@ -23,7 +23,7 @@ export default class Navbar extends Component {
           />
           <NavigationLink
             linkurl="http://thenewdigitalschool.com/application"
-            linklabel="Apply Now"
+            linklabel="Applications"
           />
         </div>
       </div>
