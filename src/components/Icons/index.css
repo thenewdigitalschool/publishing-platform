@@ -2,10 +2,11 @@
 
 .Icons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+
+  margin: var(--size-16);
 
   @media (--tablet-breakpoint) {
-    flex-direction: row;
   }
 }
 

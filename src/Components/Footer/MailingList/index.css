@@ -1,20 +1,51 @@
+@import '../../settings.css';
+
 .MailingList {
+  margin: var(--size-16) auto;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
+
+  @media (--tablet-breakpoint) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.Input {
+  width: 100%;
+
+  @media (--tablet-breakpoint) {
+    width: auto;
+  }
 }
 
 .MailingList-button {
-  background: #0652FD;
+  background: #0652fd;
   padding: 0 60px;
   border: none;
   height: 40px;
-  margin-left: 10px;
+  width: 100%;
+  margin: var(--size-16);
   color: #fff;
   font-family: 'Euclid Flex', sans-serif;
-  font-size: 16px;
+  font-size: var(--size-16);
   position: relative;
   overflow: hidden;
+
+  @media (--tablet-breakpoint) {
+    background: #0652fd;
+    padding: 0 60px;
+    border: none;
+    height: 40px;
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Euclid Flex', sans-serif;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+  }
 }
 
 .MailingList-button:before {
@@ -31,16 +62,17 @@
   z-index: 1;
 }
 
-.MailingList-button:hover:before {
-  transform: translate(0) rotate(-45deg) scale(4);
+.MailingList-button:hover {
+  background: #0241ce;
 }
 
 .MailingList-buttonText {
-  position: relative;
-  z-index: 10;
-  transition: all 0.6s ease-in-out;
+  @media (--tablet-breakpoint) {
+    position: relative;
+    transition: all 0.6s ease-in-out;
+  }
 }
 
 .MailingList-button:hover .MailingList-buttonText {
-  color: #0652FD;
+  color: var(--white);
 }

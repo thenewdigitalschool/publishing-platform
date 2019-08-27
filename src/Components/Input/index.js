@@ -7,10 +7,16 @@ export default class Input extends Component {
   renderWithLabel() {
     return (
       <div className="Input">
-        <label htmlFor={this.props.id} className="Input-label">{/* eslint-disable-line jsx-a11y/label-has-for */}
+        <label htmlFor={this.props.id} className="Input-label">
+          {/* eslint-disable-line jsx-a11y/label-has-for */}
           {this.props.label}
         </label>
-        <input id={this.props.id} className="Input-type" type={this.props.type} />
+        <input
+          id={this.props.id}
+          className="Input-type"
+          type={this.props.type}
+          placeholder={this.props.placeholder}
+        />
       </div>
     );
   }
@@ -18,7 +24,12 @@ export default class Input extends Component {
   renderWithoutLabel() {
     return (
       <div className="Input">
-        <input id={this.props.id} className="Input-type" type={this.props.type} />
+        <input
+          id={this.props.id}
+          className="Input-type"
+          type={this.props.type}
+          placeholder={this.props.placeholder}
+        />
       </div>
     );
   }
@@ -35,5 +46,6 @@ export default class Input extends Component {
 Input.propTypes = {
   id: PropTypes.string.isRequired,
   label: PropTypes.string.isRequired,
+  placeholder: PropTypes.string.isRequired,
   type: PropTypes.oneOf(['text', 'email', 'textarea']).isRequired,
 };

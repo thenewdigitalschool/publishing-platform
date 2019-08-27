@@ -1,3 +1,5 @@
+@import '../settings.css';
+
 * {
   box-sizing: border-box;
 }
@@ -15,6 +17,7 @@
 }
 
 .Footer-panel {
+  width: 100%;
   background: #0b1129;
   padding: 40px 30px 0 30px;
   flex-grow: 2;
@@ -44,9 +47,14 @@
 
 .Footer-social {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin: 40px 0 15px;
+
+  @media (--tablet-breakpoint) {
+    flex-direction: row;
+  }
 }
 
 .Footer-link {
