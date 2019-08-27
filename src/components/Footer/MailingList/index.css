@@ -35,16 +35,7 @@
   overflow: hidden;
 
   @media (--tablet-breakpoint) {
-    background: #0652fd;
-    padding: 0 60px;
-    border: none;
-    height: 40px;
-    margin-left: 10px;
-    color: #fff;
-    font-family: 'Euclid Flex', sans-serif;
-    font-size: 16px;
-    position: relative;
-    overflow: hidden;
+    width: 30%;
   }
 }
 
