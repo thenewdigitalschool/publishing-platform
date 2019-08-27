@@ -1,7 +1,9 @@
+@import '../settings.css';
+
 .CardList {
   width: 95%;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: var(--size-52) auto;
 
   display: grid;
   grid-auto-flow: row;
