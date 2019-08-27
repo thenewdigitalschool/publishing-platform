@@ -1,8 +1,0 @@
-@import '../settings.css';
-
-.MainText {
-  font-size: var(--size-20);
-  line-height: var(--size-28);
-
-  font-family: var(--font-family-euclid, var(--font-family-sans-serif));
-}
