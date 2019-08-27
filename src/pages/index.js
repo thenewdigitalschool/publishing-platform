@@ -13,7 +13,7 @@ const TemplateWrapper = ({ data }) => {
   return (
     <div>
       <Layout>
-        <HeroBlog>TNDS Blog</HeroBlog>
+        <HeroBlog>Blog</HeroBlog>
         <CardList>
           {edges.map((post) => {
             const {
