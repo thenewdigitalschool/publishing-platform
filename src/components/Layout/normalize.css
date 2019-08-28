@@ -10,6 +10,7 @@ body,
 
 [data-reactroot] {
   display: flex;
+  flex-direction: column;
 }
 
 html,
