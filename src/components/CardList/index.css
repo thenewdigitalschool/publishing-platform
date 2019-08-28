@@ -1,11 +1,11 @@
 @import '../settings.css';
 
 .CardList {
+
+  display: grid;
   width: 95%;
   max-width: 1000px;
   margin: var(--size-52) auto;
-
-  display: grid;
   grid-auto-flow: row;
   grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
   grid-gap: 20px;

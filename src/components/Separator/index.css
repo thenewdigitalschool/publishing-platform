@@ -1,15 +1,18 @@
 .Separator {
-    background-color: #f9f9f9;
-    height: 212px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  height: 212px;
+  background-color: #f9f9f9;
 }
 
 .Separator-title {
-    font-size: 56px;
-    font-family: 'Euclid Flex', sans-serif;
-    color: #0B1129;
-    text-align: center;
+
+  color: #0b1129;
+  font-family: 'Euclid Flex', sans-serif;
+  font-size: 56px;
+
+  text-align: center;
 }

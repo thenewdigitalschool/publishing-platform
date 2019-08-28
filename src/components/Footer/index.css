@@ -9,19 +9,21 @@
 }
 
 .Footer-content {
-  margin: 20px auto;
-  max-width: 1000px;
 
   display: flex;
   flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 20px auto;
 }
 
 .Footer-panel {
-  width: 100%;
-  background: #0b1129;
-  padding: 40px 30px 0 30px;
   flex-grow: 2;
+  width: 100%;
+
+  padding: 40px 30px 0 30px;
   margin-right: 15px;
+
+  background: #0b1129;
 }
 
 .Footer .Input {
@@ -31,25 +33,27 @@
 .Footer-heading,
 .Footer-text,
 .Footer-label {
-  font-family: 'Euclid Flex', sans-serif;
+
   color: #fff;
+  font-family: 'Euclid Flex', sans-serif;
 }
 
 .Footer-heading {
-  font-size: 30px;
+
   margin: 0;
+  font-size: 30px;
 }
 
 .Footer-label {
-  margin-top: 20px;
   display: block;
+  margin-top: 20px;
 }
 
 .Footer-social {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   margin: 40px 0 15px;
 
   @media (--tablet-breakpoint) {
@@ -58,14 +62,17 @@
 }
 
 .Footer-link {
-  color: rgba(255, 255, 255, 0.7);
-  text-decoration: none;
-  font-family: 'Euclid Flex', sans-serif;
+
   display: block;
   padding: 3px 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Euclid Flex', sans-serif;
+
+  text-decoration: none;
 }
 
 .Footer-link:hover {
-  text-decoration: underline;
+
   color: #fff;
+  text-decoration: underline;
 }

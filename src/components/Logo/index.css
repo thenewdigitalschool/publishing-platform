@@ -3,17 +3,21 @@
 .Logo {
   display: flex;
   flex-direction: column;
-  padding: 0;
-  color: #fff;
+
   align-items: center;
+  padding: 0;
+
+  color: #fff;
 }
 
 .Logo a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-decoration: none;
+
   color: var(--white);
+
+  text-decoration: none;
 
   @media (--tablet-breakpoint) {
     align-items: initial;
@@ -23,9 +27,11 @@
 .Logo-image {
   width: 200px;
   height: 29px;
+
+  color: #ffffff;
+
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
 }
 
 .Logo-text {

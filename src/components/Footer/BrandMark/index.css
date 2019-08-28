@@ -1,5 +1,13 @@
 .BrandMark {
-  background: linear-gradient(135deg, #0652fd 0%, #0652fd 77%, #0b1129 77%, #0b1129 100%);
+
   padding: 15px 8px;
+  background: linear-gradient(
+    135deg,
+    #0652fd 0%,
+    #0652fd 77%,
+    #0b1129 77%,
+    #0b1129 100%
+  );
+
   text-align: center;
 }

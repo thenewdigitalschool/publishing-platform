@@ -1,14 +1,19 @@
 @import '../settings';
 
 .Button {
+
+  display: inline-block;
   width: 380px;
   height: 41px;
-  background: #0652fd;
-  color: #fff;
-  display: inline-block;
-  border: 1px solid #0652fd;
+
   padding: 10px;
+
+  background: #0652fd;
+
+  border: 1px solid #0652fd;
+  color: #fff;
+
   font-size: var(--size-20);
-  font-height: 24px;
   font-weight: bold;
+  font-height: 24px;
 }

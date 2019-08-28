@@ -1,12 +1,14 @@
 @import '../settings.css';
 
 .Layout-footer {
-  background-color: var(--dark-blue);
+
   height: 10px;
+  background-color: var(--dark-blue);
 }
 
 .Layout {
   width: 100%;
+
   background-color: #fff;
 }
 
@@ -21,11 +23,13 @@
   margin-left: auto;
 
   color: var(--dark-blue);
+
   text-decoration: none;
 }
 
 .Layout-content a {
   color: #000;
+
   text-decoration: none;
 }
 
@@ -35,6 +39,7 @@
 
 .navbar {
   margin: 0;
+
   background: var(--tnds-blue);
 }
 
@@ -43,10 +48,11 @@
 }
 
 .Layout-blog {
-  font-size: var(--size-16);
-  font-weight: var(--size-20);
+
   max-width: 42rem;
   margin: var(--size-28) auto;
+  font-size: var(--size-16);
+  font-weight: var(--size-20);
 }
 
 .Layout-blog p {

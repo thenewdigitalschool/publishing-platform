@@ -1,14 +1,16 @@
 .Label {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
 }
 
 .Label-text {
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: bold;
-    margin-right: 8px;
-    font-family: 'Euclid Flex', sans-serif;
+
+  margin-right: 8px;
+
+  font-family: 'Euclid Flex', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
 }
