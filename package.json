@@ -41,7 +41,8 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.9.1",
-    "gh-pages": "^1.2.0"
+    "gh-pages": "^1.2.0",
+    "prettier": "1.18.2"
   },
   "bit": {
     "env": {
