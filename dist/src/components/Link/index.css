@@ -1,0 +1,44 @@
+.ApplyLink {
+    font-family: 'Euclid Flex', sans-serif;
+    font-weight: 600;
+    background-color: #0C51FE;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+}
+
+.ApplyLink:before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #0B102A;
+    top: 0;
+    left: 0;
+    transform: translate(-150%, -150%) rotate(45deg) scale(1.5);
+    transition: all 0.6s ease-in-out;
+    z-index: 1;
+}
+
+.ApplyLink:hover:before {
+    transform: translate(0) rotate(45deg) scale(1.5);
+}
+
+.ApplyLink--home {
+    height: 300px;
+    width: 300px;
+    font-size: 20px;
+}
+
+.ApplyLink--home .ApplyLink-text {
+    position: absolute;
+    z-index: 10;
+}
