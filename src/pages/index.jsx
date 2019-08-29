@@ -1,26 +1,24 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-import HeroBlog from '../components/HeroBlog';
-import Layout from '../../src/components/Layout';
-import Card from '../components/Card';
-import CardList from '../components/CardList';
-import './index.css';
-import '../fonts/stylesheet.css';
+import HeroBlog from '../components/HeroBlog'
+import Layout from '../../src/components/Layout'
+import Card from '../components/Card'
+import CardList from '../components/CardList'
+import './index.css'
+import '../fonts/stylesheet.css'
 
 const TemplateWrapper = ({ data }) => {
-  const { edges } = data.allMarkdownRemark;
+  const { edges } = data.allMarkdownRemark
   return (
     <div>
       <Layout>
         <HeroBlog>Blog</HeroBlog>
         <CardList>
-          {edges.map((post) => {
-            const {
- thumbnail, title, path, date,
-} = post.node.frontmatter;
+          {edges.map(post => {
+            const { thumbnail, title, path, date } = post.node.frontmatter
             return (
-              <li>
+              <li key={post.node.id}>
                 <Card>
                   <img className="Card-PostImage" src={thumbnail} alt={title} />
                   <div className="Card-PostPreview">
@@ -34,22 +32,22 @@ const TemplateWrapper = ({ data }) => {
                   </div>
                 </Card>
               </li>
-            );
+            )
           })}
         </CardList>
       </Layout>
     </div>
-  );
-};
+  )
+}
 
 TemplateWrapper.propTypes = {
-  data: PropTypes.string.isRequired,
-};
+  data: PropTypes.any.isRequired,
+}
 
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
-      sort: {fields: [frontmatter___date], order: DESC}
+      sort: { fields: [frontmatter___date], order: DESC }
       limit: 20
     ) {
       edges {
@@ -67,6 +65,6 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`
 
-export default TemplateWrapper;
+export default TemplateWrapper
