@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
   repo: thenewdigitalschool/publishing-platform
+  branch: master
+  site_domain: https://tndsblog.netlify.com
 
 publish_mode: editorial_workflow
 media_folder: "static/images"
@@ -19,4 +21,3 @@ collections:
       - { name: title, label: Title }
       - { name: published, label: Published }
       - { name: body, label: Body, widget: markdown }
-
