@@ -15,9 +15,9 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { name: path, label: Path }
+      - { name: path, label: Path,hint: 'E.g.: /chess-match'  }
       - { name: date, label: Date, widget: date }
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - { name: thumbnail, label: "Featured Image", widget: "image" }
       - { name: title, label: Title }
       - { name: published, label: Published }
       - { name: body, label: Body, widget: markdown }
