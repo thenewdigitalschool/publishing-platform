@@ -11,11 +11,8 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       allMarkdownRemark {
         edges {
           node {
-            html
-            id
             frontmatter {
               path
-              title
             }
           }
         }
@@ -26,10 +23,18 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     if (res.errors) {
       return Promise.reject(res.errors)
     }
-    posts.forEach(({ node }) => {
+    posts.forEach(({ node }, index) => {
+      const path = node.frontmatter.path
+      const previous = index === posts.length - 1 ? null : posts[index + 1].node
+      const next = index === 0 ? null : posts[index - 1].node
       createPage({
         path: node.frontmatter.path,
         component: postTemplate,
+        context: {
+          pathSlug: path,
+          previous,
+          next,
+        },
       })
     })
   })

@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
+
 import './index.css'
 
 export default class ApplyLink extends Component {
   render() {
     return (
       <a className={this.props.className} href={this.props.href}>
-        <span className="ApplyLink-text">{this.props.children}</span>{' '}
+        <span className="ApplyLink-text">{this.props.text}</span>{' '}
       </a>
     )
   }
@@ -15,10 +16,10 @@ export default class ApplyLink extends Component {
 ApplyLink.propTypes = {
   className: PropTypes.string,
   href: PropTypes.string.isRequired,
-  children: PropTypes.node,
+  text: PropTypes.string,
 }
 
 ApplyLink.defaultProps = {
   className: null,
-  children: null,
+  text: null,
 }

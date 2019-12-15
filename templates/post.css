@@ -38,3 +38,7 @@
     margin: var(--size-36) auto;
   }
 }
+
+.blogNavigation {
+  display: flex;
+}

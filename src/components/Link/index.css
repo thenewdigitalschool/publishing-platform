@@ -1,5 +1,6 @@
-.ApplyLink {
+@import '../settings.css';
 
+.ApplyLink {
   position: relative;
 
   position: relative;
@@ -56,4 +57,28 @@
 .ApplyLink--home .ApplyLink-text {
   position: absolute;
   z-index: 10;
+}
+
+.previousLink,
+.nextLink,
+.homeLink {
+  width: 100%;
+  margin-top: var(--size-16);
+
+  display: flex;
+  justify-content: center;
+
+  color: #000;
+
+  font-size: var(--size-16);
+
+  font-weight: var(--font-weight-bold);
+  line-height: var(--size-20);
+
+  @media (--tablet-breakpoint) {
+    margin: 0 var(--size-28);
+
+    font-size: var(--size-20);
+    line-height: var(--size-28);
+  }
 }
