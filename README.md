@@ -6,6 +6,8 @@
 
 [![Build Status](https://semaphoreci.com/api/v1/justo/publishing-platform/branches/master/badge.svg)](https://semaphoreci.com/justo/publishing-platform)
 
+[![Build Status](https://semaphoreci.com/api/v1/fmmricardo/publishing-platform/branches/master/badge.svg)](https://semaphoreci.com/fmmricardo/publishing-platform)
+
 - [Trello][trello]
 - [Build Page][build-page]
 - [Production](https://tndsblog.netlify.com)
