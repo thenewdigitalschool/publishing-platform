@@ -1,10 +1,10 @@
-const path = require('path');
-const { fmImagesToRelative } = require('gatsby-remark-relative-images');
+const path = require('path')
+const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
+  const { createPage } = boundActionCreators
 
-  const postTemplate = path.resolve('templates/post.js');
+  const postTemplate = path.resolve('templates/post.js')
 
   return graphql(`
     {
@@ -21,20 +21,20 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         }
       }
     }
-  `).then((res) => {
-    const posts = res.data.allMarkdownRemark.edges;
+  `).then(res => {
+    const posts = res.data.allMarkdownRemark.edges
     if (res.errors) {
-      return Promise.reject(res.errors);
+      return Promise.reject(res.errors)
     }
     posts.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
         component: postTemplate,
-      });
-    });
-  });
-};
+      })
+    })
+  })
+}
 
 exports.onCreateNode = ({ node }) => {
-  fmImagesToRelative(node);
-};
+  fmImagesToRelative(node)
+}
