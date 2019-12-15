@@ -8,7 +8,7 @@ export default class MailingList extends Component {
     return (
       <form className="MailingList">
         <Input className="Input" placeholder="Email" type="email" />
-        <button className="MailingList-button" value="submit">
+        <button className="MailingList-button" type="button" value="submit">
           <span className="MailingList-buttonText"> Subscribe </span>
         </button>
       </form>

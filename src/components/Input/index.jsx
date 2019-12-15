@@ -1,7 +1,7 @@
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 
-import './index.css'
+import './index.css';
 
 export default class Input extends Component {
   renderWithLabel() {
@@ -18,7 +18,7 @@ export default class Input extends Component {
           placeholder={this.props.placeholder}
         />
       </div>
-    )
+    );
   }
 
   renderWithoutLabel() {
@@ -31,15 +31,15 @@ export default class Input extends Component {
           placeholder={this.props.placeholder}
         />
       </div>
-    )
+    );
   }
 
   render() {
     if (this.props.label) {
-      return this.renderWithLabel()
+      return this.renderWithLabel();
     }
 
-    return this.renderWithoutLabel()
+    return this.renderWithoutLabel();
   }
 }
 
@@ -48,9 +48,9 @@ Input.propTypes = {
   label: PropTypes.string,
   placeholder: PropTypes.string.isRequired,
   type: PropTypes.oneOf(['text', 'email', 'textarea']).isRequired,
-}
+};
 
 Input.defaultProps = {
   id: null,
   label: null,
-}
+};

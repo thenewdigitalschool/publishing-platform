@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 
 import Navbar from '../Navbar';
-import Footer from '../../components/Footer';
+import Footer from '../Footer';
 
 import './reset.css';
 import './normalize.css';

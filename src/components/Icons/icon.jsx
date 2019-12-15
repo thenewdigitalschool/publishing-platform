@@ -1,12 +1,12 @@
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 
-import './index.css'
-import FacebookIcon from './svg/facebook.svg'
-import InstagramIcon from './svg/instagram.svg'
-import TwitterIcon from './svg/twitter.svg'
-import MediumIcon from './svg/medium.svg'
-import ProductHuntIcon from './svg/producthunt.svg'
+import './index.css';
+import FacebookIcon from './svg/facebook.svg';
+import InstagramIcon from './svg/instagram.svg';
+import TwitterIcon from './svg/twitter.svg';
+import MediumIcon from './svg/medium.svg';
+import ProductHuntIcon from './svg/producthunt.svg';
 
 const icons = {
   facebook: {
@@ -33,11 +33,11 @@ const icons = {
     icon: ProductHuntIcon,
     url: 'https://www.producthunt.com/posts/the-new-digital-school',
   },
-}
+};
 
-const getUrl = socialIcon => icons[socialIcon].url
+const getUrl = socialIcon => icons[socialIcon].url;
 
-const getIcon = socialIcon => icons[socialIcon].icon
+const getIcon = socialIcon => icons[socialIcon].icon;
 
 export default class Icon extends Component {
   render() {
@@ -51,15 +51,15 @@ export default class Icon extends Component {
           <img src={getIcon(this.props.socialIcon)} alt={this.props.alt} />
         </a>
       </div>
-    )
+    );
   }
 }
 
 Icon.propTypes = {
   alt: PropTypes.string,
   socialIcon: PropTypes.string.isRequired,
-}
+};
 
 Icon.defaultProps = {
   alt: null,
-}
+};

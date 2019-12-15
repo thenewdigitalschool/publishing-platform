@@ -1,22 +1,22 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import HeroBlog from '../components/HeroBlog'
-import Layout from '../../src/components/Layout'
-import Card from '../components/Card'
-import CardList from '../components/CardList'
-import './index.css'
-import '../fonts/stylesheet.css'
+import HeroBlog from '../components/HeroBlog';
+import Layout from '../components/Layout';
+import Card from '../components/Card';
+import CardList from '../components/CardList';
+import './index.css';
+import '../fonts/stylesheet.css';
 
 const TemplateWrapper = ({ data }) => {
-  const { edges } = data.allMarkdownRemark
+  const { edges } = data.allMarkdownRemark;
   return (
     <div>
       <Layout>
         <HeroBlog>Blog</HeroBlog>
         <CardList>
           {edges.map(post => {
-            const { thumbnail, title, path, date } = post.node.frontmatter
+            const { thumbnail, title, path, date } = post.node.frontmatter;
             return (
               <li key={post.node.id}>
                 <Card>
@@ -32,17 +32,17 @@ const TemplateWrapper = ({ data }) => {
                   </div>
                 </Card>
               </li>
-            )
+            );
           })}
         </CardList>
       </Layout>
     </div>
-  )
-}
+  );
+};
 
 TemplateWrapper.propTypes = {
-  data: PropTypes.any.isRequired,
-}
+  data: PropTypes.node.isRequired,
+};
 
 export const pageQuery = graphql`
   query IndexQuery {
@@ -65,6 +65,6 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
 
-export default TemplateWrapper
+export default TemplateWrapper;

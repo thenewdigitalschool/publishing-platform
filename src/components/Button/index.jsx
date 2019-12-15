@@ -6,7 +6,9 @@ import './index.css';
 export default class Button extends Component {
   render() {
     return (
-      <button className="Button">{this.props.children}</button>
+      <button className="Button" type="button">
+        {this.props.children}
+      </button>
     );
   }
 }
