@@ -29,7 +29,7 @@
     "i": "^0.3.6",
     "lodash": "^4.17.13",
     "netlify-cms": "^1.9.3",
-    "npm": "^6.2.0",
+    "npm": "^6.14.6",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "typography-theme-kirkham": "^0.16.3"
