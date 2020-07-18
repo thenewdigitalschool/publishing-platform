@@ -27,7 +27,7 @@
     "glamorous": "^4.13.1",
     "handlebars": "^4.3.0",
     "i": "^0.3.6",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "netlify-cms": "^1.9.3",
     "npm": "^6.2.0",
     "prop-types": "^15.6.2",
