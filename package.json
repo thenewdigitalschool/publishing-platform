@@ -26,7 +26,7 @@
     "gatsby-transformer-remark": "^1.7.44",
     "glamorous": "^4.13.1",
     "handlebars": "^4.3.0",
-    "i": "^0.3.6",
+    "i": "^0.3.7",
     "lodash": "^4.17.13",
     "netlify-cms": "^1.9.3",
     "npm": "^6.2.0",
