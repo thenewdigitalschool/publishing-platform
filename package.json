@@ -23,7 +23,7 @@
     "gatsby-remark-relative-images": "^0.2.2",
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-javascript-frontmatter": "^1.0.10",
-    "gatsby-transformer-remark": "^1.7.44",
+    "gatsby-transformer-remark": "^5.25.1",
     "glamorous": "^4.13.1",
     "handlebars": "^4.3.0",
     "i": "^0.3.6",
